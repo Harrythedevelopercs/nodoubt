@@ -11,8 +11,10 @@ const excludedDirectories = new Set([
 
 function gitDate(file) {
   try {
-    return execFileSync("git", ["log", "-1", "--format=%cs", "--", file], {
+    return execFileSync("git", ["--no-pager", "log", "-1", "--format=%cs", "--", file], {
       encoding: "utf8",
+      stdio: ["ignore", "pipe", "ignore"],
+      timeout: 2000,
     }).trim() || new Date().toISOString().slice(0, 10);
   } catch {
     return new Date().toISOString().slice(0, 10);

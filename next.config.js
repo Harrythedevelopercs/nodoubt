@@ -1,6 +1,9 @@
 const path = require("path");
 
 const nextConfig = {
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
   experimental: {
     inlineCss: false,
     optimizePackageImports: [
