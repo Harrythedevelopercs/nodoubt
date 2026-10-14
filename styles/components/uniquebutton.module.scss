@@ -1,0 +1,187 @@
+.btnFlex {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+
+  &.center {
+    justify-content: center;
+  }
+
+  &.bgBlack {
+
+    div,
+    button {
+      &.chatStyle {
+        background: #8d5f25;
+        color: #fff;
+
+        &:hover {
+          background: #4b542a;
+          transition: background 0.3s ease, transform 0.3s ease;
+          color: #fff;
+        }
+      }
+    }
+  }
+
+  div,
+  button {
+    height: 60px;
+    border-radius: 100px;
+    padding: 0px 30px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: -0.165px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+    border: 0px;
+
+    &.btnStyle {
+      background: #4b542a;
+      color: #fff;
+
+      &:hover {
+        background: #8d5f25;
+        color: #fff;
+        transition: background 0.3s ease, transform 0.3s ease;
+      }
+    }
+
+    &.chatStyle {
+      background: #fff;
+      color: #8d5f25;
+
+      &:hover {
+        background: #4b542a;
+        transition: background 0.3s ease, transform 0.3s ease;
+        color: #fff;
+      }
+    }
+  }
+
+  &.whiteBtn {
+
+    div,
+    button {
+      background: #fff;
+      color: #8d5f25;
+      border: 0px;
+
+      &:hover {
+        background: #8d5f25;
+        color: #fff;
+      }
+    }
+  }
+}
+
+.SimpleBtn {
+  width: 100%;
+  height: 100%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  border: 0px;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  white-space: nowrap;
+  cursor: pointer;
+  padding: 0 28px;
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+  .btnFlex {
+    gap: 10px;
+
+    div,
+    button {
+      height: 60px;
+      padding: 0px 30px;
+    }
+  }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+  .btnFlex {
+    gap: 10px;
+
+    div,
+    button {
+      height: 60px;
+      padding: 0px 30px;
+    }
+  }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+  .btnFlex {
+    gap: 10px;
+
+    div,
+    button {
+      height: 55px;
+      padding: 0px 25px;
+      font-size: 15px;
+    }
+  }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1099px) {
+  .btnFlex {
+    gap: 10px;
+
+    div,
+    button {
+      height: 50px;
+      padding: 0px 25px;
+      font-size: 14px;
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 899px) {
+  .btnFlex {
+    gap: 10px;
+
+    div,
+    button {
+      height: 45px;
+      padding: 0px 15px;
+      font-size: 14px;
+    }
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .btnFlex {
+    gap: 5px;
+
+    div,
+    button {
+      height: 45px;
+      padding: 0px 15px;
+      font-size: 13px;
+    }
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+  .btnFlex {
+    gap: 10px;
+
+    div,
+    button {
+      height: 40px;
+      padding: 0px 15px;
+      font-size: 13px;
+    }
+  }
+}

@@ -1,0 +1,568 @@
+.menuSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  border-radius: 100px;
+  padding: 0px;
+  position: relative;
+
+  &::before {
+    content: "";
+    background: #FAF7F2;
+    backdrop-filter: blur(13.5px);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    border-radius: 100px;
+  }
+
+  &.isLight {
+    &::before {
+      content: "";
+      background: rgba(0, 0, 0, 1);
+      backdrop-filter: blur(7.5px);
+    }
+  }
+
+  &.active {
+    border: 0px;
+    height: 90px;
+
+    &::before {
+      display: none;
+    }
+  }
+
+  li {
+    height: 100%;
+
+    a {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      letter-spacing: -0.165px;
+      color: #8d5f25;
+      transition: color 0.3s ease, font-weight 0.3s ease;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0px 20px;
+
+      &:hover {
+        color: #4b542a;
+        transition: color 0.3s ease, font-weight 0.3s ease;
+      }
+    }
+
+    .subMenu {
+      display: none;
+      position: fixed;
+      top: 90px;
+      width: 100%;
+      left: 50%;
+      width: 100%;
+      height: 428px;
+      max-width: 1440px;
+      background: #ffffff;
+      border: 2px solid #4b542a;
+      border-radius: 30px;
+      transform: translate(-50%);
+      overflow: hidden;
+
+      .subMenuContainer {
+        display: flex;
+
+        .subMenuImage {
+          height: 428px;
+          flex: 0 0 50%;
+          position: relative;
+
+          img {
+            object-fit: cover;
+          }
+        }
+
+        .subMenuItems {
+          flex: 0 0 50%;
+          padding: 50px;
+          height: 428px;
+
+          .titleSubMenu {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 96px;
+            line-height: 90px;
+            letter-spacing: -0.165px;
+            color: rgba(75, 84, 42, 0.12);
+            margin-bottom: 20px;
+          }
+
+          ul {
+            display: flex;
+            flex-wrap: wrap;
+
+            li {
+              flex: 0 0 calc(100% / 2);
+              margin-bottom: 10px;
+
+              a {
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 28px;
+                letter-spacing: -0.165px;
+                color: #8d5f25;
+                justify-content: flex-start;
+                align-items: center;
+
+                svg {
+                  margin-right: 10px;
+                }
+
+                &:hover {
+                  color: #4b542a;
+                  transition: color 0.3s ease, font-weight 0.3s ease;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    &.active {
+      a {
+        color: #4b542a;
+      }
+    }
+
+    &:hover {
+      .subMenu {
+        display: block;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+  .menuSection {
+    height: 60px;
+
+    &.active {
+      height: 80px;
+      &::before {
+        display: none;
+      }
+    }
+
+    li {
+      height: 100%;
+
+      a {
+        font-size: 15px;
+        padding: 0px 20px;
+      }
+
+      .subMenu {
+        top: 80px;
+        height: 400px;
+        max-width: 1280px;
+
+        .subMenuContainer {
+          display: flex;
+
+          .subMenuImage {
+            height: 400px;
+            flex: 0 0 50%;
+            position: relative;
+          }
+
+          .subMenuItems {
+            flex: 0 0 50%;
+            padding: 30px;
+            height: 400px;
+
+            .titleSubMenu {
+              font-size: 85px;
+              line-height: 85px;
+              margin-bottom: 10px;
+            }
+
+            ul {
+              li {
+                margin-bottom: 10px;
+
+                a {
+                  font-size: 16px;
+                  line-height: 26px;
+
+                  svg {
+                    margin-right: 10px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+  .menuSection {
+    height: 60px;
+
+    &.active {
+      height: 75px;
+
+      &::before {
+        display: none;
+      }
+    }
+
+    li {
+      height: 100%;
+
+      a {
+        font-size: 15px;
+        padding: 0px 15px;
+      }
+
+      .subMenu {
+        top: 75px;
+        height: 360px;
+        max-width: 1200px;
+
+        .subMenuContainer {
+          display: flex;
+
+          .subMenuImage {
+            height: 360px;
+            flex: 0 0 50%;
+            position: relative;
+          }
+
+          .subMenuItems {
+            flex: 0 0 50%;
+            padding: 30px;
+            height: 360px;
+
+            .titleSubMenu {
+              font-size: 80px;
+              line-height: 80px;
+              margin-bottom: 10px;
+            }
+
+            ul {
+              li {
+                margin-bottom: 10px;
+
+                a {
+                  font-size: 15px;
+                  line-height: 22px;
+
+                  svg {
+                    margin-right: 10px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+  .menuSection {
+    height: 60px;
+
+    &.active {
+      height: 70px;
+    }
+
+    li {
+      height: 100%;
+
+      a {
+        font-size: 14px;
+        padding: 0px 15px;
+      }
+
+      .subMenu {
+        top: 70px;
+        height: 350px;
+        max-width: 1080px;
+        border-radius: 20px;
+
+        .subMenuContainer {
+          display: flex;
+
+          .subMenuImage {
+            height: 350px;
+            flex: 0 0 50%;
+            position: relative;
+          }
+
+          .subMenuItems {
+            flex: 0 0 50%;
+            padding: 20px;
+            height: 350px;
+
+            .titleSubMenu {
+              font-size: 75px;
+              line-height: 75px;
+              margin-bottom: 10px;
+            }
+
+            ul {
+              li {
+                margin-bottom: 10px;
+
+                a {
+                  font-size: 15px;
+                  line-height: 24px;
+
+                  svg {
+                    margin-right: 10px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1099px) {
+  .menuSection {
+    height: 50px;
+
+    &.active {
+      height: 60px;
+    }
+
+    li {
+      height: 100%;
+
+      a {
+        font-size: 13px;
+        padding: 0px 10px;
+      }
+
+      .subMenu {
+        top: 60px;
+        height: 280px;
+        max-width: 960px;
+        border-radius: 20px;
+
+        .subMenuContainer {
+          display: flex;
+
+          .subMenuImage {
+            height: 320px;
+            flex: 0 0 40%;
+            position: relative;
+          }
+
+          .subMenuItems {
+            flex: 0 0 60%;
+            padding: 15px;
+            height: 320px;
+
+            .titleSubMenu {
+              font-size: 75px;
+              line-height: 75px;
+              margin-bottom: 10px;
+            }
+
+            ul {
+              li {
+                margin-bottom: 10px;
+
+                a {
+                  font-size: 14px;
+                  line-height: 22px;
+
+                  svg {
+                    margin-right: 10px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 899px) {
+  .menuSection {
+    height: 50px;
+
+    &.active {
+      height: 60px;
+    }
+
+    li {
+      height: 100%;
+
+      a {
+        font-size: 13px;
+        padding: 0px 10px;
+      }
+
+      .subMenu {
+        top: 60px;
+        height: 260px;
+        max-width: 750px;
+        border-radius: 20px;
+
+        .subMenuContainer {
+          display: flex;
+
+          .subMenuImage {
+            height: 260px;
+            flex: 0 0 40%;
+            position: relative;
+          }
+
+          .subMenuItems {
+            flex: 0 0 60%;
+            padding: 15px;
+            height: 260px;
+
+            .titleSubMenu {
+              font-size: 50px;
+              line-height: 50px;
+              margin-bottom: 5px;
+            }
+
+            ul {
+              li {
+                margin-bottom: 10px;
+
+                a {
+                  font-size: 13px;
+                  line-height: 18px;
+
+                  svg {
+                    margin-right: 5px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .menuSection {
+    position: fixed;
+    width: 300px;
+    height: calc(100vh - 0px);
+    background: #FAF7F2;
+    backdrop-filter: blur(13.5px);
+    top: 0px;
+    right: -300px;
+    transition: width 0.5s, opacity 0.5s;
+    z-index: 9;
+    opacity: 0;
+    overflow: auto;
+    animation: slideFromTop 0.5s forwards;
+    border: 0px;
+    border-radius: 0px;
+    display: flex;
+    padding: 70px 20px 30px;
+
+    &.activeMenu {
+      right: 0px;
+      opacity: 1;
+      animation: slideFromTop 0.5s forwards;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      text-align: left;
+      height: 100%;
+    }
+
+    li {
+      height: auto;
+      width: 100%;
+      display: block;
+
+      a {
+        font-size: 15px;
+        padding: 10px 10px;
+        line-height: 20px;
+        height: auto;
+        justify-content: flex-start;
+        align-items: flex-start;
+      }
+
+      .subMenu {
+        position: relative;
+        height: 100%;
+        max-width: 100%;
+        border-radius: 20px;
+        top: unset;
+        border: 0px;
+        background: transparent;
+
+        .subMenuContainer {
+          display: block;
+
+          .subMenuImage {
+            display: none;
+          }
+
+          .subMenuItems {
+            width: 100%;
+            margin-bottom: 10px;
+            height: 100%;
+            padding: 0px;
+
+            .titleSubMenu {
+              display: none;
+            }
+
+            ul {
+              display: block;
+              padding-left: 20px;
+
+              li {
+                margin-bottom: 10px;
+                height: auto;
+
+                a {
+                  font-size: 13px;
+                  line-height: 15px;
+                  padding: 0px;
+
+                  svg {
+                    margin-right: 10px;
+                    width: 10px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

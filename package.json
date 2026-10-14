@@ -1,0 +1,44 @@
+{
+  "name": "heritage-leaf-books",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "dev:share": "next dev --turbopack -H 0.0.0.0",
+    "prebuild": "npm run lint:content && npm run sitemap",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "lint:content": "node scripts/lint-content.mjs",
+    "sitemap": "node scripts/generate-sitemap.mjs",
+    "indexnow": "node scripts/indexnow.mjs"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "embla-carousel": "8.5.1",
+    "embla-carousel-auto-scroll": "8.5.1",
+    "embla-carousel-autoplay": "8.5.1",
+    "embla-carousel-class-names": "8.5.1",
+    "embla-carousel-react": "8.5.1",
+    "googleapis": "^150.0.1",
+    "next": "15.1.6",
+    "react": "^19.0.0",
+    "react-bootstrap": "^2.10.8",
+    "react-dom": "^19.0.0",
+    "sass": "^1.83.4",
+    "sharp": "^0.33.5"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "eslint": "^9",
+    "eslint-config-next": "15.1.6"
+  },
+  "browserslist": [
+    "chrome >= 109",
+    "edge >= 109",
+    "firefox >= 109",
+    "safari >= 16",
+    "ios >= 16",
+    "not dead"
+  ]
+}

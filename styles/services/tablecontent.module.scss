@@ -1,0 +1,441 @@
+.tableContent {
+    .tableContainer {
+        padding: 10px;
+        background: #ffff;
+        border-radius: 20px 20px 20px 20px;
+
+        .tableHeading {
+            display: flex;
+            height: 100px;
+            background: rgba(75, 84, 42, 0.12);
+            border: 1px solid #FFFFFF;
+            border-radius: 20px 20px 0px 0px;
+            width: 100%;
+
+            .headingItem {
+                flex: 0 0 calc(100% / 4);
+                padding: 0px 20px;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 25px;
+                line-height: 25px;
+                text-align: center;
+                letter-spacing: -0.165px;
+                color: #4b542a;
+                border-right: 1px solid #E8E8E8;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-transform: uppercase;
+
+                &:last-child {
+                    border-right: 0px;
+                }
+            }
+        }
+
+        .tableRow {
+            display: flex;
+
+
+            .tableCol {
+                flex: 0 0 calc(100% / 4);
+                border-right: 1px solid #E8E8E8;
+
+                .tableColItem {
+                    border-bottom: 1px solid #E8E8E8;
+                    padding: 0px 20px;
+                    height: 75px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 25px;
+                    letter-spacing: -0.165px;
+                    color: #1F509A;
+
+                    svg {
+                        path {
+                            fill: #000000
+                        }
+                    }
+                }
+
+                &:first-child {
+                    border-left: 1px solid #E8E8E8;
+
+
+                    .tableColItem {
+                        justify-content: flex-start;
+                        color: #000000;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+    .tableContent {
+        padding-bottom: 0px;
+        margin-top: 80px;
+
+        .tableContainer {
+            padding: 10px;
+            border-radius: 20px 20px 20px 20px;
+
+            .tableHeading {
+                height: 80px;
+                border-radius: 20px 20px 0px 0px;
+
+                .headingItem {
+                    padding: 0px 20px;
+                    font-size: 20px;
+                    line-height: 20px;
+                }
+            }
+
+            .tableRow {
+                .tableCol {
+                    .tableColItem {
+                        padding: 0px 20px;
+                        height: 70px;
+                        font-size: 15px;
+                        line-height: 23px;
+
+                        svg {
+                            width: 18px;
+                            height: auto;
+                        }
+
+                        &:last-child {
+
+                            .buttonLast {
+                                font-size: 18px;
+                                line-height: 28px;
+                            }
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+    .tableContent {
+        padding-bottom: 0px;
+        margin-top: 70px;
+
+        .tableContainer {
+            padding: 10px;
+            border-radius: 20px 20px 20px 20px;
+
+            .tableHeading {
+                height: 70px;
+                border-radius: 20px 20px 0px 0px;
+
+                .headingItem {
+                    padding: 0px 20px;
+                    font-size: 18px;
+                    line-height: 18px;
+                }
+            }
+
+            .tableRow {
+                .tableCol {
+                    .tableColItem {
+                        padding: 0px 20px;
+                        height: 60px;
+                        font-size: 14px;
+                        line-height: 20px;
+
+                        svg {
+                            width: 16px;
+                            height: auto;
+                        }
+
+                        &:last-child {
+
+                            .buttonLast {
+                                font-size: 16px;
+                                line-height: 20px;
+                            }
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+    .tableContent {
+        padding-bottom: 0px;
+        margin-top: 50px;
+        border-radius: 50px;
+
+        .tableContainer {
+            padding: 10px;
+            border-radius: 20px 20px 20px 20px;
+
+            .tableHeading {
+                height: 65px;
+                border-radius: 20px 20px 0px 0px;
+
+                .headingItem {
+                    padding: 0px 20px;
+                    font-size: 18px;
+                    line-height: 18px;
+                }
+            }
+
+            .tableRow {
+                .tableCol {
+                    .tableColItem {
+                        padding: 0px 20px;
+                        height: 60px;
+                        font-size: 14px;
+                        line-height: 20px;
+
+                        svg {
+                            width: 15px;
+                            height: auto;
+                        }
+
+                        &:last-child {
+                            .buttonLast {
+                                font-size: 16px;
+                                line-height: 20px;
+                            }
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width:1099px) {
+    .tableContent {
+        padding-bottom: 0px;
+        margin-top: 50px;
+        border-radius: 50px;
+
+        .tableContainer {
+            padding: 10px;
+            border-radius: 20px 20px 20px 20px;
+
+            .tableHeading {
+                height: 60px;
+                border-radius: 20px 20px 0px 0px;
+
+                .headingItem {
+                    padding: 0px 15px;
+                    font-size: 16px;
+                    line-height: 16px;
+                }
+            }
+
+            .tableRow {
+                .tableCol {
+                    .tableColItem {
+                        padding: 0px 10px;
+                        height: 55px;
+                        font-size: 13px;
+                        line-height: 18px;
+
+                        svg {
+                            width: 14px;
+                            height: auto;
+                        }
+
+                        &:last-child {
+
+                            .buttonLast {
+                                font-size: 14px;
+                                line-height: 20px;
+                            }
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width:899px) {
+    .tableContent {
+        padding-bottom: 0px;
+        margin-top: 50px;
+        border-radius: 50px;
+
+        .tableContainer {
+            padding: 10px;
+            border-radius: 20px 20px 20px 20px;
+
+            .tableHeading {
+                height: 55px;
+                border-radius: 20px 20px 0px 0px;
+
+                .headingItem {
+                    padding: 0px 10px;
+                    font-size: 15px;
+                    line-height: 16px;
+                }
+            }
+
+            .tableRow {
+                .tableCol {
+                    .tableColItem {
+                        padding: 0px 10px;
+                        height: 50px;
+                        font-size: 12px;
+                        line-height: 18px;
+
+                        svg {
+                            width: 13px;
+                            height: auto;
+                        }
+
+                        &:last-child {
+
+                            .buttonLast {
+                                font-size: 13px;
+                                line-height: 20px;
+                            }
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width:767px) {
+    .tableContent {
+        padding-bottom: 0px;
+        margin-top: 50px;
+        border-radius: 50px;
+
+
+        .tableContainer {
+            padding: 10px;
+            border-radius: 20px 20px 20px 20px;
+            overflow: auto;
+
+            .tableHeading {
+                height: 55px;
+                border-radius: 20px 20px 0px 0px;
+                width: 800px;
+
+                .headingItem {
+                    padding: 0px 10px;
+                    font-size: 15px;
+                    line-height: 16px;
+                    flex: 0 0 200px;
+                }
+            }
+
+            .tableRow {
+                width: 800px;
+
+                .tableCol {
+                    flex: 0 0 200px;
+
+                    .tableColItem {
+                        padding: 0px 10px;
+                        height: 50px;
+                        font-size: 12px;
+                        line-height: 18px;
+
+                        svg {
+                            width: 13px;
+                            height: auto;
+                        }
+
+                        &:last-child {
+
+
+                            .buttonLast {
+                                font-size: 13px;
+                                line-height: 20px;
+                            }
+                        }
+
+                    }
+
+
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+    .tableContent {
+        padding-bottom: 50px;
+        margin-top: 50px;
+        border-radius: 50px;
+
+
+        .tableContainer {
+            padding: 10px;
+            border-radius: 20px 20px 20px 20px;
+            overflow: auto;
+
+            .tableHeading {
+                height: 55px;
+                border-radius: 20px 20px 0px 0px;
+                width: 800px;
+
+                .headingItem {
+                    padding: 0px 10px;
+                    font-size: 15px;
+                    line-height: 16px;
+                    flex: 0 0 200px;
+                }
+            }
+
+            .tableRow {
+                width: 800px;
+
+                .tableCol {
+                    flex: 0 0 200px;
+
+                    .tableColItem {
+                        padding: 0px 10px;
+                        height: 50px;
+                        font-size: 12px;
+                        line-height: 18px;
+
+                        svg {
+                            width: 13px;
+                            height: auto;
+                        }
+
+                        &:last-child {
+
+
+                            .buttonLast {
+                                font-size: 13px;
+                                line-height: 20px;
+                            }
+                        }
+
+                    }
+
+
+                }
+            }
+        }
+    }
+}

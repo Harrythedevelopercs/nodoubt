@@ -1,0 +1,225 @@
+.clientSlider {
+    height: 110px;
+
+    .clientContainer {
+        background: #4b542a;
+        width: 100%;
+        z-index: 1;
+        border-radius: 15px;
+
+
+        .embla {
+            .embla__viewport {
+                overflow: hidden;
+                height: 100%;
+
+                .embla__container {
+                    display: flex;
+                    touch-action: pan-y pinch-zoom;
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+
+                    .embla__slide {
+                        flex: 0 0 calc(100% / 6);
+                        text-align: center;
+
+                        .imgBox {
+                            position: relative;
+                            height: 36px;
+
+                            img {
+                                object-fit: contain;
+                            }
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+    .clientSlider {
+        height: 90px;
+
+        .clientContainer {
+
+            .embla {
+                .embla__viewport {
+
+                    .embla__container {
+
+                        .embla__slide {
+                            flex: 0 0 calc(100% / 6);
+
+                            .imgBox {
+                                height: 30px;
+                            }
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+    .clientSlider {
+        height: 80px;
+
+        .clientContainer {
+
+            .embla {
+                .embla__viewport {
+
+                    .embla__container {
+
+                        .embla__slide {
+                            flex: 0 0 calc(100% / 6);
+
+                            .imgBox {
+                                height: 25px;
+                            }
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+    .clientSlider {
+        height: 80px;
+
+        .clientContainer {
+
+            .embla {
+                .embla__viewport {
+
+                    .embla__container {
+
+                        .embla__slide {
+                            flex: 0 0 calc(100% / 6);
+
+                            .imgBox {
+                                height: 25px;
+                            }
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width:1099px) {
+    .clientSlider {
+        height: 70px;
+
+        .clientContainer {
+
+            .embla {
+                .embla__viewport {
+
+                    .embla__container {
+
+                        .embla__slide {
+                            flex: 0 0 calc(100% / 5);
+
+                            .imgBox {
+                                height: 22px;
+                            }
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width:899px) {
+    .clientSlider {
+        height: 70px;
+
+        .clientContainer {
+
+            .embla {
+                .embla__viewport {
+
+                    .embla__container {
+
+                        .embla__slide {
+                            flex: 0 0 calc(100% / 5);
+
+                            .imgBox {
+                                height: 22px;
+                            }
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width:767px) {
+    .clientSlider {
+        height: 70px;
+
+        .clientContainer {
+
+            .embla {
+                .embla__viewport {
+
+                    .embla__container {
+
+                        .embla__slide {
+                            flex: 0 0 calc(100% / 5);
+
+                            .imgBox {
+                                height: 22px;
+                            }
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+    .clientSlider {
+        height: 60px;
+
+        .clientContainer {
+            margin-top: 0px;
+            border-radius: 0px;
+
+            .embla {
+                .embla__viewport {
+
+                    .embla__container {
+
+                        .embla__slide {
+                            flex: 0 0 calc(100% / 3);
+
+                            .imgBox {
+                                height: 20px;
+                            }
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

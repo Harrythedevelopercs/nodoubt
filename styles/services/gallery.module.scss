@@ -1,0 +1,139 @@
+.gallerySection {
+    .galleryContainer {
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 15px;
+
+        .galleryItem {
+            height: 300px;
+            position: relative;
+            flex: 0 0 calc(25% - 15px);
+            border-radius: 15px;
+
+            img {
+                object-fit: cover;
+                border-radius: 15px;
+            }
+
+            &:first-child {
+                flex: 0 0 50%;
+            }
+
+            &:nth-child(4) {
+                flex: 0 0 75%;
+            }
+        }
+    }
+}
+
+
+@media only screen and (min-width: 900px) and (max-width:1099px) {
+    .gallerySection {
+        .galleryContainer {
+            margin-top: 30px;
+            gap: 10px;
+
+            .galleryItem {
+                height: 260px;
+                flex: 0 0 calc(25% - 10px);
+                border-radius: 12px;
+
+                img {
+                    border-radius: 12px;
+                }
+
+                &:first-child {
+                    flex: 0 0 50%;
+                }
+
+                &:nth-child(4) {
+                    flex: 0 0 75%;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width:899px) {
+    .gallerySection {
+        .galleryContainer {
+            margin-top: 30px;
+            gap: 10px;
+
+            .galleryItem {
+                height: 200px;
+                flex: 0 0 calc(25% - 10px);
+                border-radius: 12px;
+
+                img {
+                    border-radius: 12px;
+                }
+
+                &:first-child {
+                    flex: 0 0 50%;
+                }
+
+                &:nth-child(4) {
+                    flex: 0 0 75%;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width:767px) {
+    .gallerySection {
+        .galleryContainer {
+            margin-top: 30px;
+            gap: 10px;
+
+            .galleryItem {
+                height: 200px;
+                flex: 0 0 calc(25% - 10px);
+                border-radius: 12px;
+
+                img {
+                    border-radius: 12px;
+                }
+
+                &:first-child {
+                    flex: 0 0 50%;
+                }
+
+                &:nth-child(4) {
+                    flex: 0 0 75%;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+    .gallerySection {
+        .galleryContainer {
+            margin-top: 20px;
+            gap: 10px;
+
+            .galleryItem {
+                height: 180px;
+                flex: 0 0 calc(100% - 0px);
+                border-radius: 10px;
+
+                img {
+                    border-radius: 10px;
+                }
+
+                &:first-child {
+                    flex: 0 0 100%;
+                }
+
+                &:nth-child(4) {
+                    flex: 0 0 100%;
+                }
+            }
+        }
+    }
+}

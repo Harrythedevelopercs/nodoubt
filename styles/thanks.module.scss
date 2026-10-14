@@ -1,0 +1,182 @@
+.thanksSection {
+    height: calc(100vh - 250px);
+    text-align: center;
+
+    .bannerContentBox {
+        h1 {
+            color: #000;
+        }
+
+        a {
+            color: #000;
+        }
+
+        svg {
+            height: 20px;
+            margin-left: 10px;
+        }
+        .thanksBtn{
+           a{
+            background: #4b542a;
+            color: #fff;
+            display: flex;
+            width: 200px;
+            justify-content: center;
+            align-items: center;
+            height: 60px;
+            border-radius: 30px;
+            margin: auto;
+            svg{
+                path{
+                    stroke:#fff;
+                }
+            }
+        } 
+        }
+    }
+
+    p {
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+    .thanksSection {
+        height: 100%;
+        padding-top: 130px;
+        text-align: center;
+
+        .bannerContentBox {
+
+            svg {
+                height: 15px;
+                margin-left: 10px;
+            }
+        }
+
+        p {
+            margin-bottom: 20px;
+        }
+    }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+    .thanksSection {
+        height: 100%;
+        padding-top: 130px;
+        text-align: center;
+
+        .bannerContentBox {
+
+            svg {
+                height: 15px;
+                margin-left: 10px;
+            }
+        }
+
+        p {
+            margin-bottom: 20px;
+        }
+    }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+    .thanksSection {
+        height: 100%;
+        padding-top: 130px;
+        text-align: center;
+
+        .bannerContentBox {
+
+            svg {
+                height: 15px;
+                margin-left: 10px;
+            }
+        }
+
+        p {
+            margin-bottom: 10px;
+        }
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width:1099px) {
+    .thanksSection {
+        height: 100%;
+        padding-top: 130px;
+        text-align: center;
+
+        .bannerContentBox {
+
+            svg {
+                height: 15px;
+                margin-left: 10px;
+            }
+        }
+
+        p {
+            margin-bottom: 10px;
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width:899px) {
+    .thanksSection {
+        height: 100%;
+        padding-top: 100px;
+        text-align: center;
+
+        .bannerContentBox {
+
+            svg {
+                height: 15px;
+                margin-left: 10px;
+            }
+        }
+
+        p {
+            margin-bottom: 10px;
+        }
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width:767px) {
+    .thanksSection {
+        height: 100%;
+        padding-top: 100px;
+        text-align: center;
+
+        .bannerContentBox {
+
+            svg {
+                height: 15px;
+                margin-left: 10px;
+            }
+        }
+
+        p {
+            margin-bottom: 10px;
+        }
+    }
+}
+
+
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+    .thanksSection {
+        height: 100%;
+        padding-top: 100px;
+        text-align: center;
+
+        .bannerContentBox {
+
+            svg {
+                height: 15px;
+                margin-left: 10px;
+            }
+        }
+
+        p {
+            margin-bottom: 10px;
+        }
+    }
+}

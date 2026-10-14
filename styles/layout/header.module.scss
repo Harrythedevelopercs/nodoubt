@@ -1,0 +1,210 @@
+.headerSection {
+    height: 115px;
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    top: 0;
+    z-index: 9;
+
+    .mainLogo {
+        display: inline-flex;
+        align-items: center;
+
+        svg, img {
+            height: 60px;
+            width: auto;
+            max-height: 60px;
+            object-fit: contain;
+        }
+    }
+
+
+    .lastBtn {
+        float: right;
+        clear: both;
+        height: 60px;
+
+        a {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 22px;
+            letter-spacing: -0.165px;
+        }
+    }
+
+    &.active {
+        position: fixed;
+        height: 90px;
+
+
+        &::before {
+            content: '';
+            background: #FAF7F2;
+            backdrop-filter: blur(13.5px);
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+    }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+    .headerSection {
+        height: 100px;
+
+        .mainLogo {
+            svg, img {
+                height: 50px;
+                width: auto;
+            }
+        }
+
+
+        .lastBtn {
+            height: 60px;
+            font-size: 15px;
+        }
+
+        &.active {
+            position: fixed;
+            height: 80px;
+        }
+    }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+    .headerSection {
+        height: 90px;
+
+        .mainLogo {
+            svg, img {
+                height: 45px;
+                width: auto;
+            }
+        }
+
+
+        .lastBtn {
+            height: 60px;
+            padding: 0px 25px;
+            font-size: 15px;
+
+
+        }
+
+        &.active {
+            position: fixed;
+            height: 75px;
+        }
+    }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+    .headerSection {
+        height: 80px;
+
+        .mainLogo {
+            svg, img {
+                height: 42px;
+                width: auto;
+            }
+        }
+
+
+        .lastBtn {
+            height: 60px;
+            padding: 0px 15px;
+            font-size: 14px;
+        }
+
+        &.active {
+            position: fixed;
+            height: 70px;
+        }
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width:1099px) {
+    .headerSection {
+        height: 70px;
+
+        .mainLogo {
+            svg, img {
+                height: 40px;
+                width: auto;
+            }
+        }
+
+        .lastBtn {
+            height: 50px;
+            padding: 0px 15px;
+            font-size: 14px;
+        }
+
+        &.active {
+            position: fixed;
+            height: 60px;
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width:899px) {
+    .headerSection {
+        height: 70px;
+
+        .mainLogo {
+            svg, img {
+                height: 38px;
+                width: auto;
+            }
+        }
+
+        .lastBtn {
+            height: 50px;
+            padding: 0px 15px;
+            font-size: 12px;
+            min-width: 150px;
+        }
+
+        &.active {
+            position: fixed;
+            height: 60px;
+        }
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+    .headerSection {
+        height: 60px;
+
+        .mainLogo {
+            svg, img {
+                height: 38px;
+                width: auto;
+            }
+        }
+
+        &.active {
+            height: 60px;
+
+            .lastBtn {
+                display: none;
+            }
+
+            .mainLogo {
+                svg, img {
+                    height: 38px;
+                    width: auto;
+                }
+            }
+        }
+
+        .lastBtn {
+            display: none;
+        }
+    }
+}

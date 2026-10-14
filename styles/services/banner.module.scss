@@ -1,0 +1,241 @@
+.bannerSection {
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 1000px auto;
+    height: 80vh;
+    padding-top: 100px;
+
+    &.bgImage {
+        background-size: cover;
+        background-position: center center;
+        border-radius: 0 0 100px 100px;
+    }
+
+    .bannerLogo {
+        margin-top: 30px;
+
+        img {
+            height: 28px;
+            width: auto;
+        }
+    }
+
+
+}
+
+.bannerBlogSection {
+    height: 400px;
+}
+
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+    .bannerSection {
+        padding-top: 70px;
+        height: 90vh;
+
+        &.bgImage {
+            background-size: cover;
+            background-position: center center;
+            border-radius: 0 0 100px 100px;
+        }
+
+        .bannerLogo {
+            margin-top: 30px;
+
+            img {
+                height: 22px;
+                width: auto;
+            }
+        }
+
+    }
+
+    .bannerBlogSection {
+        height: 350px;
+    }
+
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+    .bannerSection {
+        padding-top: 70px;
+        height: 90vh;
+
+        &.bgImage {
+            background-size: cover;
+            background-position: center center;
+            border-radius: 0 0 100px 100px;
+        }
+
+        .bannerLogo {
+            margin-top: 30px;
+
+            img {
+                height: 22px;
+                width: auto;
+            }
+        }
+
+    }
+
+    .bannerBlogSection {
+        height: 350px;
+    }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+    .bannerSection {
+        padding-top: 70px;
+        height: 90vh;
+
+        &.bgImage {
+            background-size: cover;
+            background-position: center center;
+            border-radius: 0 0 100px 100px;
+        }
+
+        .bannerLogo {
+            margin-top: 30px;
+
+            img {
+                height: 20px;
+                width: auto;
+            }
+        }
+
+    }
+
+    .bannerBlogSection {
+        height: 350px;
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width:1099px) {
+    .bannerSection {
+        padding-top: 50px;
+        height: 90vh;
+
+        &.bgImage {
+            background-size: cover;
+            background-position: center center;
+            border-radius: 0 0 100px 100px;
+        }
+
+        .bannerLogo {
+            margin-top: 30px;
+
+            img {
+                height: 25px;
+                width: auto;
+            }
+        }
+
+    }
+
+    .bannerBlogSection {
+        height: 300px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width:899px) {
+    .bannerSection {
+        padding-top: 0px;
+        height: 80vh;
+
+        &.bgImage {
+            background-size: cover;
+            background-position: center center;
+            border-radius: 0 0 100px 100px;
+        }
+
+        .bannerLogo {
+            margin-top: 30px;
+
+            img {
+                height: 20px;
+                width: auto;
+            }
+        }
+
+    }
+
+    .bannerBlogSection {
+        height: 280px;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width:767px) {
+    .bannerSection {
+        padding-top: 100px;
+        height: 100%;
+        padding-bottom: 20px;
+
+        &.bgImage {
+            background-size: cover;
+            background-position: center center;
+            border-radius: 0 0 100px 100px;
+        }
+
+        .bannerLogo {
+            margin-top: 30px;
+
+            img {
+                height: 20px;
+                width: auto;
+            }
+        }
+
+        .banneerImage {
+            margin-top: 20px;
+            margin-bottom: 20px;
+
+            img {
+                height: 300px;
+                width: auto;
+            }
+        }
+
+    }
+
+    .bannerBlogSection {
+        height: 240px;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+    .bannerSection {
+        padding-top: 80px;
+        height: 100%;
+        padding-bottom: 20px;
+
+        &.bgImage {
+            background-size: cover;
+            background-position: center center;
+            border-radius: 0 0 100px 100px;
+        }
+
+        .bannerLogo {
+            margin-top: 20px;
+
+            img {
+                height: 15px;
+                width: auto;
+            }
+        }
+
+        .banneerImage {
+            margin-top: 20px;
+            margin-bottom: 0px;
+
+            img {
+                height: 300px;
+                width: auto;
+            }
+        }
+
+    }
+
+    .bannerBlogSection {
+        height: 300px;
+    }
+}

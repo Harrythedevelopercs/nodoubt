@@ -1,0 +1,541 @@
+.journeyTitle {
+    background: #f8f8f8;
+    margin-top: 50px;
+}
+
+.journeySection {
+    background: #000;
+    margin-top: 30px;
+    padding-bottom: 50px;
+    overflow: hidden;
+    position: relative;
+
+    &::after {
+        content: '';
+        background: #000;
+        width: 48%;
+        height: 100%;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        z-index: 1;
+    }
+
+    .journeyContainer {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        height: 100%;
+
+
+        .contentSection {
+            flex: 0 0 40%;
+            margin-right: 10%;
+            height: 100%;
+            position: relative;
+            z-index: 2;
+
+            h2 {
+                color: #fff;
+            }
+
+            p {
+                color: #fff;
+            }
+        }
+
+        .sliderSection {
+            flex: 0 0 calc(55% - 10%);
+            position: relative;
+
+            .embla {
+                height: 100%;
+
+                .embla__viewport {
+                    overflow: visible;
+                    height: 100%;
+                    position: relative;
+
+                    .embla__container {
+                        display: flex;
+                        touch-action: pan-y pinch-zoom;
+                        justify-content: space-between;
+                        margin-left: calc(50px * -1);
+
+                        .embla__slide {
+                            flex: 0 0 740px;
+                            padding-left: 50px;
+                            overflow: hidden;
+
+                            .imgBox {
+                                width: 100%;
+                                height: 460px;
+                                border-radius: 35px;
+                                position: relative;
+                                margin-bottom: 20px;
+
+                                img {
+                                    border-radius: 35px;
+                                    object-fit: cover;
+                                }
+                            }
+
+                            .txtBox {
+                                h4 {
+                                    color: #fff;
+                                }
+
+                                p {
+                                    font-size: 25px;
+                                    color: #fff;
+                                    line-height: 35px;
+                                    margin-bottom: 0px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+    .journeySection {
+        margin-top: 30px;
+        padding-bottom: 50px;
+
+        &::after {
+            width: 48%;
+            height: 100%;
+        }
+
+        .journeyContainer {
+            .contentSection {
+                flex: 0 0 40%;
+                margin-right: 10%;
+                height: 100%;
+
+            }
+
+            .sliderSection {
+                flex: 0 0 calc(55% - 10%);
+
+                .embla {
+
+                    .embla__viewport {
+
+                        .embla__container {
+                            margin-left: calc(50px * -1);
+
+                            .embla__slide {
+                                flex: 0 0 600px;
+                                padding-left: 50px;
+
+                                .imgBox {
+                                    height: 360px;
+                                    border-radius: 30px;
+                                    margin-bottom: 20px;
+
+                                    img {
+                                        border-radius: 30px;
+                                    }
+                                }
+
+                                .txtBox {
+                                    p {
+                                        font-size: 20px;
+                                        color: #717171;
+                                        line-height: 30px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+    .journeySection {
+        margin-top: 30px;
+        padding-bottom: 50px;
+
+        &::after {
+            width: 48%;
+            height: 100%;
+        }
+
+        .journeyContainer {
+            .contentSection {
+                flex: 0 0 40%;
+                margin-right: 10%;
+                height: 100%;
+
+            }
+
+            .sliderSection {
+                flex: 0 0 calc(55% - 10%);
+
+                .embla {
+
+                    .embla__viewport {
+
+                        .embla__container {
+                            margin-left: calc(40px * -1);
+
+                            .embla__slide {
+                                flex: 0 0 550px;
+                                padding-left: 40px;
+
+                                .imgBox {
+                                    height: 340px;
+                                    border-radius: 25px;
+                                    margin-bottom: 20px;
+
+                                    img {
+                                        border-radius: 25px;
+                                    }
+                                }
+
+                                .txtBox {
+                                    h4 {
+                                        margin-bottom: 10px;
+                                    }
+
+                                    p {
+                                        font-size: 18px;
+                                        color: #717171;
+                                        line-height: 24px;
+
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+    .journeySection {
+        margin-top: 30px;
+        padding-bottom: 50px;
+
+        &::after {
+            width: 48%;
+            height: 100%;
+        }
+
+        .journeyContainer {
+            .contentSection {
+                flex: 0 0 40%;
+                margin-right: 10%;
+                height: 100%;
+
+            }
+
+            .sliderSection {
+                flex: 0 0 calc(55% - 10%);
+
+                .embla {
+
+                    .embla__viewport {
+
+                        .embla__container {
+                            margin-left: calc(30px * -1);
+
+                            .embla__slide {
+                                flex: 0 0 550px;
+                                padding-left: 30px;
+
+                                .imgBox {
+                                    height: 340px;
+                                    border-radius: 25px;
+                                    margin-bottom: 20px;
+
+                                    img {
+                                        border-radius: 25px;
+                                    }
+                                }
+
+                                .txtBox {
+                                    h4 {
+                                        margin-bottom: 10px;
+                                    }
+
+                                    p {
+                                        font-size: 18px;
+                                        color: #717171;
+                                        line-height: 24px;
+
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width:1099px) {
+    .journeySection {
+        margin-top: 30px;
+        padding-bottom: 50px;
+
+        &::after {
+            width: 48%;
+            height: 100%;
+        }
+
+        .journeyContainer {
+            .contentSection {
+                flex: 0 0 40%;
+                margin-right: 10%;
+                height: 100%;
+
+            }
+
+            .sliderSection {
+                flex: 0 0 calc(55% - 10%);
+
+                .embla {
+
+                    .embla__viewport {
+
+                        .embla__container {
+                            margin-left: calc(30px * -1);
+
+                            .embla__slide {
+                                flex: 0 0 450px;
+                                padding-left: 30px;
+
+                                .imgBox {
+                                    height: 280px;
+                                    border-radius: 20px;
+                                    margin-bottom: 20px;
+
+                                    img {
+                                        border-radius: 20px;
+                                    }
+                                }
+
+                                .txtBox {
+                                    h4 {
+                                        margin-bottom: 10px;
+                                    }
+
+                                    p {
+                                        font-size: 16px;
+                                        color: #717171;
+                                        line-height: 24px;
+
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width:899px) {
+    .journeySection {
+        margin-top: 30px;
+        padding-bottom: 0px;
+
+        &::after {
+            width: 48%;
+            height: 100%;
+        }
+
+        .journeyContainer {
+            .contentSection {
+                flex: 0 0 46%;
+                margin-right: 4%;
+                height: 100%;
+
+            }
+
+            .sliderSection {
+                flex: 0 0 calc(55% - 10%);
+
+                .embla {
+
+                    .embla__viewport {
+
+                        .embla__container {
+                            margin-left: calc(30px * -1);
+
+                            .embla__slide {
+                                flex: 0 0 380px;
+                                padding-left: 30px;
+
+                                .imgBox {
+                                    height: 240px;
+                                    border-radius: 15px;
+                                    margin-bottom: 10px;
+
+                                    img {
+                                        border-radius: 15px;
+                                    }
+                                }
+
+                                .txtBox {
+                                    h4 {
+                                        margin-bottom: 10px;
+                                    }
+
+                                    p {
+                                        font-size: 15px;
+                                        color: #717171;
+                                        line-height: 20px;
+
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width:767px) {
+    .journeySection {
+        margin-top: 30px;
+        padding-bottom: 20px;
+
+        &::after {
+            width: 48%;
+            height: 100%;
+        }
+
+        .journeyContainer {
+            .contentSection {
+                flex: 0 0 46%;
+                margin-right: 4%;
+                height: 100%;
+
+            }
+
+            .sliderSection {
+                flex: 0 0 calc(55% - 10%);
+
+                .embla {
+
+                    .embla__viewport {
+
+                        .embla__container {
+                            margin-left: calc(20px * -1);
+
+                            .embla__slide {
+                                flex: 0 0 320px;
+                                padding-left: 20px;
+
+                                .imgBox {
+                                    height: 220px;
+                                    border-radius: 15px;
+                                    margin-bottom: 10px;
+
+                                    img {
+                                        border-radius: 15px;
+                                    }
+                                }
+
+                                .txtBox {
+                                    h4 {
+                                        margin-bottom: 10px;
+                                    }
+
+                                    p {
+                                        font-size: 14px;
+                                        color: #717171;
+                                        line-height: 20px;
+
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+    .journeySection {
+        margin-top: 30px;
+        padding-bottom: 20px;
+
+        &::after {
+            display: none;
+        }
+
+        .journeyContainer {
+            flex-wrap: wrap;
+            justify-content: flex-start;
+
+            .contentSection {
+                flex: 0 0 100%;
+                margin-right: 0;
+                height: auto;
+                margin-bottom: 20px;
+
+            }
+
+            .sliderSection {
+                flex: 0 0 calc(100% - 0%);
+
+                .embla {
+
+                    .embla__viewport {
+
+                        .embla__container {
+                            margin-left: calc(20px * -1);
+
+                            .embla__slide {
+                                flex: 0 0 320px;
+                                padding-left: 20px;
+
+                                .imgBox {
+                                    height: 220px;
+                                    border-radius: 15px;
+                                    margin-bottom: 10px;
+
+                                    img {
+                                        border-radius: 15px;
+                                    }
+                                }
+
+                                .txtBox {
+                                    h4 {
+                                        margin-bottom: 10px;
+                                    }
+
+                                    p {
+                                        font-size: 14px;
+                                        color: #717171;
+                                        line-height: 20px;
+
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

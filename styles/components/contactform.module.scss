@@ -1,0 +1,880 @@
+.Contactbox {
+  --field-height: 55px;
+  border-radius: 20px;
+  padding: 0px 0px 0px;
+  max-width: 570px;
+  margin: auto;
+
+  .contactItem {
+    margin-bottom: 10px;
+    position: relative;
+
+    input:not([type="file"]) {
+      height: var(--field-height);
+      background: #fff;
+      border-radius: 15px;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 24px;
+      color: #73858f;
+      width: 100%;
+      border: 0px;
+      outline: none;
+      padding: 15px 20px 0px;
+    }
+
+    textarea {
+      height: 140px;
+      background: #fff;
+      border-radius: 20px;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      color: #73858f;
+      width: 100%;
+      border: 0px;
+      outline: none;
+      padding: 22px 20px 5px;
+      resize: vertical;
+    }
+
+    &:has(textarea) label:not(.fileLabel) {
+      top: 18px;
+      transform: none;
+    }
+
+    textarea:focus + label:not(.fileLabel),
+    textarea:not(:placeholder-shown) + label:not(.fileLabel) {
+      color: #4b542a;
+      top: 0;
+      transform: translateY(-50%) scale(0.86);
+    }
+
+    select {
+      appearance: none;
+      background: #fff;
+      border: 0;
+      border-radius: 15px;
+      color: #73858f;
+      font-size: 15px;
+      height: var(--field-height);
+      outline: none;
+      padding: 15px 38px 0 20px;
+      width: 100%;
+    }
+
+    label:not(.fileLabel) {
+      background: #fff;
+      color: #73858f;
+      cursor: text;
+      font-size: 15px;
+      font-weight: 400;
+      left: 14px;
+      line-height: 1;
+      margin: 0;
+      padding: 0 6px;
+      pointer-events: none;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      transform-origin: left center;
+      transition: color 0.2s ease, top 0.2s ease, transform 0.2s ease;
+    }
+
+    input:not([type="file"]):focus,
+    textarea:focus,
+    select:focus {
+      border-color: #4b542a;
+    }
+
+    input:not([type="file"]):focus + label:not(.fileLabel),
+    input:not([type="file"]):not(:placeholder-shown) + label:not(.fileLabel),
+    input:not([type="file"]):-webkit-autofill + label:not(.fileLabel),
+    textarea:focus + label:not(.fileLabel),
+    textarea:not(:placeholder-shown) + label:not(.fileLabel),
+    select + label:not(.fileLabel) {
+      color: #4b542a;
+      top: 0;
+      transform: translateY(-50%) scale(0.86);
+    }
+
+    &.fileUploadItem {
+      height: var(--field-height);
+      display: block;
+
+      .fileInput {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0.1px;
+        height: 0.1px;
+        opacity: 0;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+        padding: 0;
+        margin: -1px;
+        pointer-events: none;
+        z-index: -1;
+      }
+
+      .fileLabel {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: space-between !important;
+        height: var(--field-height) !important;
+        width: 100% !important;
+        background: #ffffff !important;
+        border-radius: 15px;
+        border: 0;
+        padding: 0 20px !important;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px !important;
+        line-height: normal !important;
+        color: #73858f !important;
+        cursor: pointer !important;
+        box-sizing: border-box !important;
+        position: relative !important;
+        top: 0 !important;
+        left: 0 !important;
+        transform: none !important;
+        pointer-events: auto !important;
+        user-select: none;
+        margin: 0 !important;
+        transition: color 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+
+        &:hover {
+          color: #4b542a !important;
+
+          .fileIcon svg {
+            stroke: #4b542a;
+          }
+        }
+
+        .fileName {
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          max-width: calc(100% - 32px);
+          font-size: 15px;
+          color: inherit;
+          display: block;
+
+          &.fileNameActive {
+            color: #1e293b !important;
+            font-weight: 500;
+            max-width: calc(100% - 64px);
+          }
+        }
+
+        .fileIcon {
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          flex-shrink: 0;
+          margin-left: 8px;
+
+          svg {
+            display: block;
+            stroke: #73858f;
+            transition: stroke 0.2s ease;
+          }
+        }
+      }
+
+      .fileInput:focus-visible + .fileLabel,
+      .fileInput:focus + .fileLabel {
+        outline: 2px solid #4b542a;
+        outline-offset: 1px;
+      }
+
+      .clearFileBtn {
+        position: absolute;
+        right: 48px;
+        top: 50%;
+        transform: translateY(-50%);
+        background: #e2e8f0;
+        color: #4a5568;
+        border: none;
+        border-radius: 50%;
+        width: 22px;
+        height: 22px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 1;
+        cursor: pointer;
+        padding: 0;
+        z-index: 3;
+        transition: background 0.2s ease, color 0.2s ease;
+
+        &:hover {
+          background: #cbd5e0;
+          color: #1a202c;
+        }
+      }
+    }
+  }
+
+  .para {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.165px;
+    color: #000000;
+    margin-bottom: 25px;
+
+    a {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      text-decoration-line: underline;
+      color: #000000;
+
+      &:hover {
+        color: #4b542a;
+      }
+    }
+  }
+
+  .contactBtn {
+    margin-bottom: 15px;
+
+    button {
+      border: 0px;
+      width: 200px;
+      font-size: 17px;
+      height: 55px;
+
+      &:hover {
+        border: 2px solid #4b542a;
+        color: #4b542a;
+      }
+    }
+  }
+
+  .fileUploadItem {
+    margin-bottom: 10px;
+    position: relative;
+    height: var(--field-height);
+    display: block;
+
+    .fileInput {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 0.1px;
+      height: 0.1px;
+      opacity: 0;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
+      padding: 0;
+      margin: -1px;
+      pointer-events: none;
+      z-index: -1;
+    }
+
+    .fileLabel {
+      display: flex !important;
+      align-items: center !important;
+      justify-content: space-between !important;
+      height: var(--field-height) !important;
+      width: 100% !important;
+      background: #ffffff !important;
+      border-radius: 15px;
+      border: 0;
+      padding: 0 20px !important;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px !important;
+      line-height: normal !important;
+      color: #73858f !important;
+      cursor: pointer !important;
+      box-sizing: border-box !important;
+      position: relative !important;
+      top: 0 !important;
+      left: 0 !important;
+      transform: none !important;
+      pointer-events: auto !important;
+      user-select: none;
+      margin: 0 !important;
+      transition: color 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+
+      &:hover {
+        color: #4b542a !important;
+
+        .fileIcon svg {
+          stroke: #4b542a;
+        }
+      }
+
+      .fileName {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        max-width: calc(100% - 32px);
+        font-size: 15px;
+        color: inherit;
+        display: block;
+
+        &.fileNameActive {
+          color: #1e293b !important;
+          font-weight: 500;
+          max-width: calc(100% - 64px);
+        }
+      }
+
+      .fileIcon {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+        margin-left: 8px;
+
+        svg {
+          display: block;
+          stroke: #73858f;
+          transition: stroke 0.2s ease;
+        }
+      }
+    }
+
+    .fileInput:focus-visible + .fileLabel,
+    .fileInput:focus + .fileLabel {
+      outline: 2px solid #4b542a;
+      outline-offset: 1px;
+    }
+
+    .clearFileBtn {
+      position: absolute;
+      right: 48px;
+      top: 50%;
+      transform: translateY(-50%);
+      background: #e2e8f0;
+      color: #4a5568;
+      border: none;
+      border-radius: 50%;
+      width: 22px;
+      height: 22px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 1;
+      cursor: pointer;
+      padding: 0;
+      z-index: 3;
+      transition: background 0.2s ease, color 0.2s ease;
+
+      &:hover {
+        background: #cbd5e0;
+        color: #1a202c;
+      }
+    }
+  }
+
+  &.verticalFrom {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    max-width: 100%;
+    margin: auto;
+    justify-content: center;
+
+    .contactItem {
+      flex: 0 0 calc(25% - 10px);
+
+      input {
+        background: #fff;
+        border-radius: 10px;
+        border: 2px solid #4b542a;
+      }
+
+      .fileLabel {
+        background: #fff;
+        border-radius: 10px;
+        border: 2px solid #4b542a;
+        height: var(--field-height) !important;
+      }
+    }
+
+    .messageItem {
+      flex: 0 0 100%;
+
+      textarea {
+        background: #fff;
+        border-radius: 10px;
+        border: 2px solid #4b542a;
+        height: 80px;
+      }
+    }
+
+    .contactBtn {
+      flex: 0 0 100%;
+
+      button {
+        width: 100%;
+      }
+    }
+  }
+
+  &.lp2From {
+    .contactItem {
+      flex: 0 0 calc(25% - 10px);
+    }
+  }
+
+  &.popop {
+    .contactItem {
+      margin-bottom: 8px;
+
+      input {
+        border: 1px solid #4b542a;
+      }
+
+      textarea {
+        border: 1px solid #4b542a;
+        height: 100px;
+      }
+
+      select {
+        border: 1px solid #4b542a;
+      }
+
+      .fileLabel {
+        border: 1px solid #4b542a;
+      }
+    }
+
+    .para {
+      margin-bottom: 15px;
+    }
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 991px) {
+  .Contactbox {
+    &.verticalFrom {
+      .contactItem {
+        flex: 0 0 calc(50% - 10px);
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+  .Contactbox {
+    --field-height: 50px;
+    max-width: 570px;
+
+    .contactItem {
+      margin-bottom: 10px;
+
+      input:not([type="file"]) {
+        height: 50px;
+        font-size: 14px;
+        line-height: 24px;
+        padding: 0px 20px;
+        border-radius: 10px;
+      }
+
+      .fileLabel {
+        border-radius: 10px;
+        font-size: 14px !important;
+        padding: 0 20px !important;
+
+        .fileName {
+          font-size: 14px;
+        }
+      }
+
+      textarea {
+        height: 110px;
+        font-size: 14px;
+        line-height: 24px;
+        padding: 22px 20px 5px;
+      }
+    }
+
+    .para {
+      font-size: 13px;
+      line-height: 20px;
+      margin-bottom: 15px;
+
+      a {
+        font-size: 14px;
+      }
+    }
+
+    .contactBtn {
+      button {
+        width: 200px;
+        font-size: 16px;
+        height: 50px;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+  .Contactbox {
+    --field-height: 45px;
+    max-width: 570px;
+
+    .contactItem {
+      margin-bottom: 10px;
+
+      input:not([type="file"]) {
+        height: 45px;
+        font-size: 14px;
+        line-height: 24px;
+        padding: 0px 20px;
+        border-radius: 10px;
+      }
+
+      .fileLabel {
+        border-radius: 10px;
+        font-size: 14px !important;
+        padding: 0 20px !important;
+
+        .fileName {
+          font-size: 14px;
+        }
+      }
+
+      textarea {
+        height: 110px;
+        font-size: 14px;
+        line-height: 24px;
+        padding: 22px 20px 5px;
+      }
+    }
+
+    .para {
+      font-size: 13px;
+      line-height: 20px;
+      margin-bottom: 15px;
+
+      a {
+        font-size: 14px;
+      }
+    }
+
+    .contactBtn {
+      button {
+        width: 200px;
+        font-size: 16px;
+        height: 50px;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+  .Contactbox {
+    --field-height: 40px;
+    max-width: 570px;
+
+    .contactItem {
+      margin-bottom: 10px;
+
+      input:not([type="file"]) {
+        height: 40px;
+        font-size: 13px;
+        line-height: 24px;
+        padding: 0px 20px;
+        border-radius: 10px;
+      }
+
+      .fileLabel {
+        border-radius: 10px;
+        font-size: 13px !important;
+        padding: 0 20px !important;
+
+        .fileName {
+          font-size: 13px;
+        }
+      }
+
+      textarea {
+        height: 140px;
+        font-size: 13px;
+        line-height: 24px;
+        padding: 22px 20px 5px;
+      }
+    }
+
+    .para {
+      font-size: 12px;
+      line-height: 20px;
+      margin-bottom: 15px;
+
+      a {
+        font-size: 13px;
+      }
+    }
+
+    .contactBtn {
+      button {
+        width: 130px;
+        font-size: 15px;
+        height: 40px;
+        padding: 0px 10px;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1099px) {
+  .Contactbox {
+    --field-height: 40px;
+    max-width: 570px;
+
+    .contactItem {
+      margin-bottom: 5px;
+
+      input:not([type="file"]) {
+        height: 40px;
+        font-size: 13px;
+        line-height: 24px;
+        padding: 0px 20px;
+        border-radius: 10px;
+      }
+
+      .fileLabel {
+        border-radius: 10px;
+        font-size: 13px !important;
+        padding: 0 20px !important;
+
+        .fileName {
+          font-size: 13px;
+        }
+      }
+
+      textarea {
+        height: 140px;
+        font-size: 13px;
+        line-height: 24px;
+        padding: 22px 20px 5px;
+      }
+    }
+
+    .para {
+      font-size: 12px;
+      line-height: 20px;
+      margin-bottom: 15px;
+
+      a {
+        font-size: 13px;
+      }
+    }
+
+    .contactBtn {
+      button {
+        width: 130px;
+        font-size: 15px;
+        height: 40px;
+        padding: 0px 10px;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 899px) {
+  .Contactbox {
+    --field-height: 45px;
+    max-width: 570px;
+
+    .contactItem {
+      margin-bottom: 5px;
+
+      input:not([type="file"]) {
+        height: 45px;
+        font-size: 12px;
+        line-height: 24px;
+        padding: 0px 15px;
+        border-radius: 10px;
+      }
+
+      .fileLabel {
+        border-radius: 10px;
+        font-size: 12px !important;
+        padding: 0 15px !important;
+
+        .fileName {
+          font-size: 12px;
+        }
+      }
+
+      textarea {
+        height: 80px;
+        font-size: 12px;
+        line-height: 24px;
+        padding: 22px 20px 5px;
+      }
+    }
+
+    .para {
+      font-size: 12px;
+      line-height: 20px;
+      margin-bottom: 10px;
+
+      a {
+        font-size: 13px;
+      }
+    }
+
+    .contactBtn {
+      button {
+        width: 130px;
+        font-size: 15px;
+        height: 45px;
+        padding: 0px 10px;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .Contactbox {
+    --field-height: 40px;
+    max-width: 570px;
+    padding-bottom: 20px;
+
+    .contactItem {
+      margin-bottom: 5px;
+
+      input:not([type="file"]) {
+        height: 40px;
+        font-size: 12px;
+        line-height: 24px;
+        padding: 0px 15px;
+        border-radius: 10px;
+      }
+
+      .fileLabel {
+        border-radius: 10px;
+        font-size: 12px !important;
+        padding: 0 15px !important;
+
+        .fileName {
+          font-size: 12px;
+        }
+      }
+
+      textarea {
+        height: 90px;
+        font-size: 12px;
+        line-height: 24px;
+        padding: 22px 20px 5px;
+      }
+    }
+
+    .para {
+      font-size: 12px;
+      line-height: 20px;
+      margin-bottom: 10px;
+
+      a {
+        font-size: 13px;
+      }
+    }
+
+    .contactBtn {
+      button {
+        width: 130px;
+        font-size: 15px;
+        height: 40px;
+        padding: 0px 10px;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+  .Contactbox {
+    --field-height: 45px;
+    max-width: 570px;
+    padding-bottom: 20px;
+
+    .contactItem {
+      margin-bottom: 5px;
+
+      input:not([type="file"]) {
+        height: 45px;
+        font-size: 13px;
+        line-height: 24px;
+        padding: 0px 15px;
+        border-radius: 10px;
+      }
+
+      .fileLabel {
+        border-radius: 10px;
+        font-size: 13px !important;
+        padding: 0 15px !important;
+
+        .fileName {
+          font-size: 13px;
+        }
+      }
+
+      textarea {
+        height: 110px;
+        font-size: 13px;
+        line-height: 24px;
+        padding: 22px 20px 5px;
+      }
+    }
+
+    &.verticalFrom {
+      .contactItem {
+        flex: 0 0 100%;
+      }
+    }
+
+    .para {
+      font-size: 12px;
+      line-height: 20px;
+      margin-bottom: 10px;
+
+      a {
+        font-size: 13px;
+      }
+    }
+
+    .contactBtn {
+      button {
+        width: 130px;
+        font-size: 14px;
+        height: 40px;
+        padding: 0px 10px;
+      }
+    }
+  }
+}
+
+.Contactbox .contactItem {
+  input:not([type="file"]),
+  select {
+    box-sizing: border-box;
+    height: var(--field-height);
+    width: 100%;
+  }
+
+  textarea {
+    box-sizing: border-box;
+    height: 140px;
+    width: 100%;
+  }
+}
+

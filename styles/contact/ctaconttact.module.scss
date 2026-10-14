@@ -1,0 +1,127 @@
+.ctaContactSection {
+    height: 630px;
+
+    .bgContact {
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 30px;
+        height: 100%;
+
+
+        .ctaTxt {
+            padding-left: 50px;
+
+            h2,
+            p {
+                color: #fff;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+    .ctaContactSection {
+        height: 550px;
+
+        .bgContact {
+            border-radius: 30px;
+
+            .ctaTxt {
+                padding-left: 50px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+    .ctaContactSection {
+        height: 550px;
+
+        .bgContact {
+            border-radius: 30px;
+
+            .ctaTxt {
+                padding-left: 50px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+    .ctaContactSection {
+        height: 500px;
+
+        .bgContact {
+            border-radius: 30px;
+
+            .ctaTxt {
+                padding-left: 50px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width:1099px) {
+    .ctaContactSection {
+        height: 450px;
+
+        .bgContact {
+            border-radius: 30px;
+
+            .ctaTxt {
+                padding-left: 50px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width:899px) {
+    .ctaContactSection {
+        height: 350px;
+
+        .bgContact {
+            border-radius: 30px;
+
+            .ctaTxt {
+                padding-left: 30px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width:767px) {
+    .ctaContactSection {
+        height: 350px;
+
+        .bgContact {
+            border-radius: 30px;
+            max-width: 96%;
+
+
+            .ctaTxt {
+                padding-left: 15px;
+                max-width: 60%;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+    .ctaContactSection {
+        height: auto;
+
+        .bgContact {
+            background-position: left center;
+            border-radius: 10px;
+            max-width: 96%;
+            padding: 20px;
+
+
+            .ctaTxt {
+                padding-left: 0px;
+                max-width: 100%;
+            }
+        }
+    }
+}

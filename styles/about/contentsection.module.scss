@@ -1,0 +1,24 @@
+.contentSection {
+    margin-bottom: 30px;
+
+    .txtBox {
+        background: rgba(75, 84, 42, 0.05);
+        border-radius: 40px;
+        height: 540px;
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .txtImage {
+        height: 540px;
+        border-radius: 40px;
+        position: relative;
+
+        img {
+            object-fit: cover;
+            border-radius: 40px;
+        }
+    }
+}

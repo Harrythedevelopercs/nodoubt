@@ -1,0 +1,432 @@
+.marketingSection {
+    overflow: hidden;
+
+    .embla {
+        height: 100%;
+        margin-top: 30px;
+
+        .embla__viewport {
+            overflow: visible;
+            height: 100%;
+            position: relative;
+
+            .embla__container {
+                display: flex;
+                touch-action: pan-y pinch-zoom;
+                justify-content: space-between;
+                margin-left: calc(20px * -1);
+
+                .embla__slide {
+                    flex: 0 0 100%;
+                    position: relative;
+                    padding-left: 20px;
+                    overflow: hidden;
+
+                    .sliderContainer {
+                        display: flex;
+                        align-items: center;
+                        background: #FFFFFF;
+                        border: 2px solid #4b542a;
+                        box-shadow: 10px 10px 30px rgba(174, 182, 187, 0.25);
+                        border-radius: 20px;
+                        padding: 25px;
+
+                        .sliderImg {
+                            position: relative;
+                            height: 400px;
+                            width: 400px;
+                            margin-right: 40px;
+                            border-radius: 15px;
+
+                            img {
+                                border-radius: 15px;
+                                object-fit: cover;
+                                object-position: top center;
+                            }
+                        }
+
+                        .sliderTxt {
+                            flex: 0 0 calc(100% - 440px);
+
+                            h4 {
+                                font-style: normal;
+                                font-weight: 600;
+                                font-size: 35px;
+                                line-height: 40px;
+                                color: #000000;
+                                margin-bottom: 10px;
+                            }
+
+                            img {
+                                height: 45px;
+                                width: auto
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+    .marketingSection {
+        overflow: hidden;
+
+        .embla {
+            margin-top: 30px;
+
+            .embla__viewport {
+                position: relative;
+
+                .embla__container {
+                    margin-left: calc(20px * -1);
+
+                    .embla__slide {
+                        padding-left: 20px;
+
+                        .sliderContainer {
+                            border: 2px solid #4b542a;
+                            padding: 25px;
+
+                            .sliderImg {
+                                height: 400px;
+                                width: 400px;
+                                margin-right: 40px;
+
+                                img {
+                                    object-fit: cover;
+                                    object-position: top center;
+                                }
+                            }
+
+                            .sliderTxt {
+                                flex: 0 0 calc(100% - 440px);
+
+                                h4 {
+                                    font-size: 30px;
+                                    line-height: 35px;
+                                    margin-bottom: 10px;
+                                }
+
+                                img {
+                                    height: 40px;
+                                    width: auto
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+    .marketingSection {
+        overflow: hidden;
+
+        .embla {
+            margin-top: 30px;
+
+            .embla__viewport {
+                position: relative;
+
+                .embla__container {
+                    margin-left: calc(20px * -1);
+
+                    .embla__slide {
+                        padding-left: 20px;
+
+                        .sliderContainer {
+                            border: 2px solid #4b542a;
+                            padding: 25px;
+
+                            .sliderImg {
+                                height: 400px;
+                                width: 400px;
+                                margin-right: 40px;
+
+                                img {
+                                    object-fit: cover;
+                                    object-position: top center;
+                                }
+                            }
+
+                            .sliderTxt {
+                                flex: 0 0 calc(100% - 440px);
+
+                                h4 {
+                                    font-size: 30px;
+                                    line-height: 35px;
+                                    margin-bottom: 10px;
+                                }
+
+                                img {
+                                    height: 40px;
+                                    width: auto
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+    .marketingSection {
+        overflow: hidden;
+
+        .embla {
+            margin-top: 30px;
+
+            .embla__viewport {
+                position: relative;
+
+                .embla__container {
+                    margin-left: calc(20px * -1);
+
+                    .embla__slide {
+                        padding-left: 20px;
+
+                        .sliderContainer {
+                            border: 2px solid #4b542a;
+                            padding: 20px;
+
+                            .sliderImg {
+                                height: 360px;
+                                width: 360px;
+                                margin-right: 40px;
+
+                                img {
+                                    object-fit: cover;
+                                    object-position: top center;
+                                }
+                            }
+
+                            .sliderTxt {
+                                flex: 0 0 calc(100% - 360px);
+
+                                h4 {
+                                    font-size: 30px;
+                                    line-height: 35px;
+                                    margin-bottom: 10px;
+                                }
+
+                                img {
+                                    height: 38px;
+                                    width: auto
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width:1099px) {
+    .marketingSection {
+        overflow: hidden;
+
+        .embla {
+            margin-top: 30px;
+
+            .embla__viewport {
+                position: relative;
+
+                .embla__container {
+                    margin-left: calc(20px * -1);
+
+                    .embla__slide {
+                        padding-left: 20px;
+
+                        .sliderContainer {
+                            border: 1px solid #4b542a;
+                            padding: 20px;
+
+                            .sliderImg {
+                                height: 300px;
+                                width: 300px;
+                                margin-right: 30px;
+
+                                img {
+                                    object-fit: cover;
+                                    object-position: top center;
+                                }
+                            }
+
+                            .sliderTxt {
+                                flex: 0 0 calc(100% - 360px);
+
+                                h4 {
+                                    font-size: 24px;
+                                    line-height: 30px;
+                                    margin-bottom: 10px;
+                                }
+
+                                img {
+                                    height: 35px;
+                                    width: auto
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width:899px) {
+    .marketingSection {
+        overflow: hidden;
+
+        .embla {
+            margin-top: 30px;
+
+            .embla__viewport {
+                position: relative;
+
+                .embla__container {
+                    margin-left: calc(20px * -1);
+
+                    .embla__slide {
+                        padding-left: 20px;
+
+                        .sliderContainer {
+                            border: 1px solid #4b542a;
+                            padding: 20px;
+
+                            .sliderImg {
+                                height: 280px;
+                                width: 280px;
+                                margin-right: 30px;
+
+                            }
+
+                            .sliderTxt {
+                                flex: 0 0 calc(100% - 280px);
+
+                                h4 {
+                                    font-size: 22px;
+                                    line-height: 28px;
+                                    margin-bottom: 10px;
+                                }
+
+                                img {
+                                    height: 30px;
+                                    width: auto
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width:767px) {
+    .marketingSection {
+        overflow: hidden;
+
+        .embla {
+            margin-top: 30px;
+
+            .embla__viewport {
+                position: relative;
+
+                .embla__container {
+                    margin-left: calc(20px * -1);
+
+                    .embla__slide {
+                        padding-left: 20px;
+
+                        .sliderContainer {
+                            border: 1px solid #4b542a;
+                            padding: 20px;
+
+                            .sliderImg {
+                                height: 400px;
+                                width: 280px;
+                                margin-right: 30px;
+
+                            }
+
+                            .sliderTxt {
+                                flex: 0 0 calc(100% - 280px);
+
+                                h4 {
+                                    font-size: 22px;
+                                    line-height: 28px;
+                                    margin-bottom: 10px;
+                                }
+
+                                img {
+                                    height: 30px;
+                                    width: auto
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+    .marketingSection {
+        overflow: hidden;
+
+        .embla {
+            margin-top: 30px;
+
+            .embla__viewport {
+                position: relative;
+
+                .embla__container {
+                    margin-left: calc(20px * -1);
+
+
+                    .embla__slide {
+                        padding-left: 20px;
+
+                        .sliderContainer {
+                            border: 1px solid #4b542a;
+                            padding: 20px;
+                            flex-wrap: wrap;
+
+                            .sliderImg {
+                                height: 350px;
+                                width: 100%;
+                                margin-right: 0px;
+                                margin-bottom: 20px;
+
+                            }
+
+                            .sliderTxt {
+                                flex: 0 0 calc(100% - 0px);
+
+                                h4 {
+                                    font-size: 20px;
+                                    line-height: 26px;
+                                    margin-bottom: 10px;
+                                }
+
+                                img {
+                                    height: 24px;
+                                    width: auto
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,2975 @@
+{
+  "/": {
+    "organizationProfile": "standard",
+    "organizationExtras": {
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Book Writing and Ghostwriting",
+              "description": "Full manuscript development written to the author's voice, from outline through final draft.",
+              "url": "https://www.yourbrand.com/book-writing-services",
+              "provider": {
+                "@id": "https://www.yourbrand.com/#organization"
+              }
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Book Editing",
+              "description": "Developmental, line and copy editing that keeps the author's voice while fixing structure and clarity.",
+              "url": "https://www.yourbrand.com/book-editing-services",
+              "provider": {
+                "@id": "https://www.yourbrand.com/#organization"
+              }
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Book Proofreading",
+              "description": "Final pass for spelling, grammar, punctuation and consistency before the book goes to print.",
+              "url": "https://www.yourbrand.com/book-proofreading-services",
+              "provider": {
+                "@id": "https://www.yourbrand.com/#organization"
+              }
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Book Publishing",
+              "description": "Format, layout, metadata and retailer setup, with the author keeping their rights and royalties.",
+              "url": "https://www.yourbrand.com/book-publishing-services",
+              "provider": {
+                "@id": "https://www.yourbrand.com/#organization"
+              }
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Book Cover Design",
+              "description": "Cover artwork built to read clearly at retail thumbnail size as well as in print.",
+              "url": "https://www.yourbrand.com/book-cover-design-services",
+              "provider": {
+                "@id": "https://www.yourbrand.com/#organization"
+              }
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Children Book Publication",
+              "description": "Publishing for picture books, early readers and educational titles, covering trim size, layout and print files.",
+              "url": "https://www.yourbrand.com/children-book-publication-services",
+              "provider": {
+                "@id": "https://www.yourbrand.com/#organization"
+              }
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Children Book Illustration",
+              "description": "Original character design and print ready artwork, with staged approvals before color work begins.",
+              "url": "https://www.yourbrand.com/children-book-illustrator",
+              "provider": {
+                "@id": "https://www.yourbrand.com/#organization"
+              }
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Video Book Trailer Production",
+              "description": "Teaser, character driven, narrative and author centric trailers in live action, 2D or 3D animation.",
+              "url": "https://www.yourbrand.com/book-trailer-services",
+              "provider": {
+                "@id": "https://www.yourbrand.com/#organization"
+              }
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Audiobook Production",
+              "description": "Human narration in unabridged, abridged, dramatized and narrated formats, mastered for distribution.",
+              "url": "https://www.yourbrand.com/audiobook-recording-services",
+              "provider": {
+                "@id": "https://www.yourbrand.com/#organization"
+              }
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Author Website Design",
+              "description": "Author sites built around the book, the mailing list and the buy links.",
+              "url": "https://www.yourbrand.com/author-website-design-services",
+              "provider": {
+                "@id": "https://www.yourbrand.com/#organization"
+              }
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Book Marketing",
+              "description": "Launch planning, listing optimization and promotion across the channels agreed for the book.",
+              "url": "https://www.yourbrand.com/book-marketing-services",
+              "provider": {
+                "@id": "https://www.yourbrand.com/#organization"
+              }
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Book Coaching and Consultation",
+              "description": "One to one guidance for authors deciding how to write, finish or publish their book.",
+              "provider": {
+                "@id": "https://www.yourbrand.com/#organization"
+              }
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Book Distribution",
+              "description": "Placement of the finished book with the retail and library channels agreed for the project.",
+              "provider": {
+                "@id": "https://www.yourbrand.com/#organization"
+              }
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Ebook Writing and Publishing",
+              "description": "Ebook production and conversion, prepared to the file standards each retailer requires.",
+              "provider": {
+                "@id": "https://www.yourbrand.com/#organization"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "graph": [
+      {
+        "@type": "WebPage",
+        "@id": "https://www.yourbrand.com/#webpage",
+        "url": "https://www.yourbrand.com/",
+        "name": "Your Brand",
+        "description": "A full service book company for authors at any stage and in any genre, covering writing and ghostwriting, editing, proofreading, publishing, illustration, audiobooks, trailers and marketing.",
+        "isPartOf": {
+          "@id": "https://www.yourbrand.com/#website"
+        },
+        "inLanguage": "en-US",
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://www.yourbrand.com/logo.png"
+        },
+        "about": {
+          "@id": "https://www.yourbrand.com/#organization"
+        }
+      }
+    ]
+  },
+  "/book-writing-services": {
+    "organizationProfile": "standard",
+    "graph": [
+      {
+        "@type": "WebPage",
+        "@id": "https://www.yourbrand.com/book-writing-services#webpage",
+        "url": "https://www.yourbrand.com/book-writing-services",
+        "name": "Book Writing Services",
+        "description": "Book writing and ghostwriting for authors, covering outline, research, first draft, editing and final manuscript, written to the author's own voice across fiction and non fiction.",
+        "isPartOf": {
+          "@id": "https://www.yourbrand.com/#website"
+        },
+        "inLanguage": "en-US",
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://www.yourbrand.com/logo.png"
+        },
+        "about": {
+          "@id": "https://www.yourbrand.com/book-writing-services#service"
+        },
+        "breadcrumb": {
+          "@id": "https://www.yourbrand.com/book-writing-services#breadcrumb"
+        }
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.yourbrand.com/book-writing-services#service",
+        "name": "Book Writing Services",
+        "serviceType": "Book writing and ghostwriting",
+        "description": "Professional book writing and ghostwriting for authors at any stage, taking a manuscript from outline through research, first draft, revision and final polish, written in the author's own voice.",
+        "url": "https://www.yourbrand.com/book-writing-services",
+        "provider": {
+          "@id": "https://www.yourbrand.com/#organization"
+        },
+        "areaServed": {
+          "@type": "Country",
+          "name": "United States"
+        },
+        "audience": {
+          "@type": "Audience",
+          "audienceType": "Authors, including first-time authors"
+        },
+        "hasOfferCatalog": [
+          {
+            "@type": "OfferCatalog",
+            "name": "Book writing by genre",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Self Help and Personal Development Book Writing",
+                  "description": "Structured around a single transformation the reader is meant to make, with exercises and takeaways carried through every chapter."
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Business and Finance Book Writing",
+                  "description": "Built on the author's own frameworks and case material, written for a professional reader who is judging credibility fast."
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Health and Wellness Book Writing",
+                  "description": "Written with careful, qualified language, keeping claims measured and separating personal experience from general guidance."
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Memoir and Biography Writing",
+                  "description": "Shaped from interviews and the author's own recollection into a narrative arc, keeping the voice recognisably theirs."
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Thriller and Mystery Novel Writing",
+                  "description": "Plotted around reveal and pacing, with clue placement and chapter endings planned before drafting begins."
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Romance and Contemporary Fiction Writing",
+                  "description": "Character led, with relationship beats and emotional turns mapped across the arc before the first draft."
+                }
+              }
+            ]
+          },
+          {
+            "@type": "OfferCatalog",
+            "name": "How a book writing project runs",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Brainstorm and Outline",
+                  "description": "The idea is shaped into a chapter by chapter structure and agreed before any drafting starts."
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Research and Plan",
+                  "description": "Source material, interviews and fact checking are gathered and organised against the outline."
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Write the First Draft",
+                  "description": "The manuscript is drafted to the agreed outline in the author's voice, in reviewable stages."
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Edit and Revise",
+                  "description": "Structure, pacing and clarity are worked through, with the author reviewing at each stage."
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Polish and Finalise",
+                  "description": "A final pass for consistency, line quality and readiness to move into editing and publishing."
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.yourbrand.com/book-writing-services#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": {
+              "@type": "WebPage",
+              "@id": "https://www.yourbrand.com/",
+              "name": "Home"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Book Writing Services",
+            "item": {
+              "@type": "WebPage",
+              "@id": "https://www.yourbrand.com/book-writing-services",
+              "name": "Book Writing Services"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.yourbrand.com/book-writing-services#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is included in a professional book writing service?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Five stages, in order. Brainstorming and outlining turns the idea into a structured roadmap. Research and planning gathers the facts the book will rest on. The first draft gets written. Editing and revision tightens readability and fixes what the draft got wrong. A final pass polishes and formats the manuscript for publishing. What changes between projects is the depth of each stage, not which stages happen."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which genres do your book writers work in?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Six genre lines are named on this page. Self help and personal development, business and finance, health and wellness, memoirs and biographies, thrillers and mystery novels, and romance and contemporary fiction. Business book writers and memoir writers work very differently, since one builds on research and a professional argument while the other builds on interviews and chronology. Confirm which of the six your project sits in before scope is agreed."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you write custom fiction from an author's own idea?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. A custom fiction book writing service starts from your premise, your characters and the ending you already have in mind, then builds the plot structure around them. Thrillers, mystery, romance and contemporary fiction are named specialties on this page. The material worth bringing is a synopsis, any character notes you have made, and two or three published novels whose pacing and tone you want yours to sit near."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is any part of the book written by AI?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. The writing is done by professional writers, which is the first of the five commitments this company lists. That matters for more than principle. A book carrying your name has to hold one voice across every chapter, stand behind its own research, and read like a person who actually lived the story. Ask any book writing company you speak to the same question, and expect a direct answer."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the difference between hiring a ghostwriter and hiring a co writer?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A ghostwriter writes the book and takes no credit, so the finished title carries your name alone. A co writer writes alongside you and is usually credited on the cover. The real difference is how much writing you plan to do yourself. Ghostwriting suits authors who have the story and no time. Co writing suits authors who want to write but need a professional structuring and finishing the manuscript."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do you make the book sound like me and not like a hired writer?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Voice gets captured before drafting rather than corrected afterwards. It comes from recorded interviews, anything you have already written, and the way you actually talk about the subject out loud. The first chapter is then treated as the voice test. Read it aloud. If the rhythm and the word choices are not yours, say so immediately, because a voice corrected at chapter one costs almost nothing to correct."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What makes a book writing project more affordable?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Material you already own. Recorded talks, published articles, detailed notes, a partial draft or a finished outline all cut writing time, because the writer is shaping your material instead of generating it from interviews alone. A shorter target word count costs less than a long one. So does settling the structure once and keeping it, since approved outlines rarely need expensive rework halfway through the draft."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I choose a book writing company?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ask to read a full chapter written by the writer assigned to you, not a polished company sample. Ask whether you keep the same writer throughout, since handoffs are where voice breaks. Ask how many revision rounds are included and what happens after them. Ask who owns the manuscript and from when. Any professional book writing service should answer all four in writing before you pay anything."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "/book-publishing-services": {
+    "organizationProfile": "standard",
+    "graph": [
+      {
+        "@type": "WebPage",
+        "@id": "https://www.yourbrand.com/book-publishing-services#webpage",
+        "url": "https://www.yourbrand.com/book-publishing-services",
+        "name": "Book Publishing Services",
+        "description": "Book publishing for authors across ebook, print on demand, audiobook and interactive ebook formats, covering formatting, cover design, ISBN setup, platform listing and distribution.",
+        "isPartOf": {
+          "@id": "https://www.yourbrand.com/#website"
+        },
+        "inLanguage": "en-US",
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://www.yourbrand.com/logo.png"
+        },
+        "about": {
+          "@id": "https://www.yourbrand.com/book-publishing-services#service"
+        },
+        "breadcrumb": {
+          "@id": "https://www.yourbrand.com/book-publishing-services#breadcrumb"
+        }
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.yourbrand.com/book-publishing-services#service",
+        "name": "Book Publishing Services",
+        "serviceType": "Book publishing",
+        "description": "Full service book publishing for authors, covering manuscript preparation, formatting, cover design and interior layout, ISBN setup, and listing and distribution across major ebook, print and audiobook platforms.",
+        "url": "https://www.yourbrand.com/book-publishing-services",
+        "provider": {
+          "@id": "https://www.yourbrand.com/#organization"
+        },
+        "areaServed": {
+          "@type": "Country",
+          "name": "United States"
+        },
+        "audience": {
+          "@type": "Audience",
+          "audienceType": "Authors, including first-time authors"
+        },
+        "hasOfferCatalog": [
+          {
+            "@type": "OfferCatalog",
+            "name": "Publishing formats",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Ebook Publishing",
+                  "description": "Manuscript formatting into EPUB, MOBI or PDF and preparation for listing on major ebook platforms, including metadata setup."
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Audiobook Publishing",
+                  "description": "Conversion of the book into a narrated audiobook and preparation for listing on major audiobook platforms."
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Print on Demand Publishing",
+                  "description": "Print on demand setup so copies are produced as they are ordered rather than printed and stored in advance."
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Interactive Ebook Publishing",
+                  "description": "Ebooks that carry animation, video, audio and clickable content, prepared for platforms that support interactive formats."
+                }
+              }
+            ]
+          },
+          {
+            "@type": "OfferCatalog",
+            "name": "Publishing paths",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Self Publication",
+                  "description": "Formatting for ebook, paperback and hardcover, then listing across major retail platforms, with the author retaining their royalties."
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Niche Nonfiction Publishing",
+                  "description": "Publishing for professionals and subject specialists, covering content development, editing, design and distribution."
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Low Content Publishing",
+                  "description": "Publishing for planners, journals, coloring books and logbooks, covering design, formatting and platform setup."
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Collectible Editions Publishing",
+                  "description": "Design, production and distribution of limited run hardcovers, illustrated editions, anniversary reprints and deluxe versions."
+                }
+              }
+            ]
+          },
+          {
+            "@type": "OfferCatalog",
+            "name": "How a book publishing project runs",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Editing and Proofreading",
+                  "description": "The manuscript is corrected and clarified so it is ready to be typeset."
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Cover Design and Interior Formatting",
+                  "description": "A cover is designed and the interior is laid out for both print and digital editions."
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Publishing Setup",
+                  "description": "ISBNs, book descriptions and platform listings are prepared and the book is made live."
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Marketing and Promotion",
+                  "description": "Listing metadata is optimized and launch promotion is set up across advertising and social channels."
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Author Branding",
+                  "description": "The book is positioned alongside the author's wider professional profile."
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.yourbrand.com/book-publishing-services#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": {
+              "@type": "WebPage",
+              "@id": "https://www.yourbrand.com/",
+              "name": "Home"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Book Publishing Services",
+            "item": {
+              "@type": "WebPage",
+              "@id": "https://www.yourbrand.com/book-publishing-services",
+              "name": "Book Publishing Services"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.yourbrand.com/book-publishing-services#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is included in a book publishing service?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The work between a finished manuscript and a live retail listing. That covers final editing and proofreading, interior formatting, cover design, ISBN setup, the book blurb and metadata, file conversion for each format, and getting the title live on the stores. Four publishing paths are named on this page, self publication, niche nonfiction, low content and collectible editions, and the production setup differs for each one."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which platforms and retailers do you publish to?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Amazon KDP for ebook and print, Apple Books and Google Play Books for ebook, Audible, Apple Audiobooks and Google Play Audiobooks for audio, and KDP Print, IngramSpark and Lulu for print on demand. Barnes and Noble is covered as well. The choice is not automatic, since every store sets its own formatting and metadata requirements, and a file one store accepts another will reject."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What decides how long publishing takes?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Four things. How finished the manuscript is on arrival, since editing scope is the largest unknown. How many formats you are launching, because each needs its own files and its own approvals. Whether the cover is being designed or supplied. And retailer review, which sits outside everyone's control. Audiobook narration adds the most time, since recording and proofing can only run once the text is final."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can writing and publishing be handled as one project?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, and it usually removes a stage. When one team writes and publishes, the manuscript is drafted with the final format already decided, so chapter length, front matter and image placement come out right the first time. A book written with no publishing plan in mind often needs reformatting afterwards, and a print interior redesigned late is one of the most common avoidable costs authors run into."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do I keep my royalties when you publish my book?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. This page states plainly that your book royalties stay yours in full, with no cut taken from your earnings. Retailers still apply their own royalty terms, and those are set by Amazon, Apple and the other stores rather than by any publishing service. Ask every company you speak to whether they take a royalty share, because a publishing fee and a royalty share are entirely separate arrangements."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is print on demand publishing, and when does it make sense?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Print on demand prints each copy after a reader orders it, instead of printing a run in advance. There is no upfront print bill and nothing to store in a garage. It suits almost every independent author, and especially a first title where demand is still unknown. A traditional print run only becomes worth weighing when you have a confirmed bulk order, such as an event or a corporate buyer."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What makes publishing a book cost less?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Arriving with more of the work already done. An edited manuscript, a cover you already own, and a decision to launch in one format rather than four all shrink the scope. Reusing a single interior layout across paperback and hardcover costs less than designing each separately. So does supplying clean final files, since repairing broken formatting usually takes longer than laying out a book from the start."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I choose a book publishing service?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ask whether they take any share of your royalties, and get that answer in writing. Ask what the quoted work actually covers and what gets quoted separately later, because that gap is where most publishing budgets go wrong. Ask which stores are actually included rather than which are possible. Ask to hold a printed copy of a book they produced, not a screenshot. Ownership questions matter more here than design ones."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "/book-editing-services": {
+    "organizationProfile": "standard",
+    "graph": [
+      {
+        "@type": "WebPage",
+        "@id": "https://www.yourbrand.com/book-editing-services#webpage",
+        "url": "https://www.yourbrand.com/book-editing-services",
+        "name": "Book Editing Services",
+        "description": "Book editing for authors at four levels, developmental, line, copy and structural, covering story structure, pacing, clarity, grammar and consistency against professional style guides.",
+        "isPartOf": {
+          "@id": "https://www.yourbrand.com/#website"
+        },
+        "inLanguage": "en-US",
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://www.yourbrand.com/logo.png"
+        },
+        "about": {
+          "@id": "https://www.yourbrand.com/book-editing-services#service"
+        },
+        "breadcrumb": {
+          "@id": "https://www.yourbrand.com/book-editing-services#breadcrumb"
+        }
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.yourbrand.com/book-editing-services#service",
+        "name": "Book Editing Services",
+        "serviceType": "Book editing",
+        "description": "Professional book editing at developmental, line, copy and structural levels, working through story structure, pacing, character arcs, sentence clarity, grammar and consistency with the author's own voice kept intact.",
+        "url": "https://www.yourbrand.com/book-editing-services",
+        "provider": {
+          "@id": "https://www.yourbrand.com/#organization"
+        },
+        "areaServed": {
+          "@type": "Country",
+          "name": "United States"
+        },
+        "audience": {
+          "@type": "Audience",
+          "audienceType": "Authors, including first-time authors"
+        },
+        "hasOfferCatalog": [
+          {
+            "@type": "OfferCatalog",
+            "name": "Levels of book editing",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Developmental Editing",
+                  "description": "A review of structure, pacing, character arcs and themes, returned as written feedback and suggested revisions."
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Line Editing",
+                  "description": "Sentence level work on flow, phrasing and transitions, keeping the author's style intact."
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Copy Editing",
+                  "description": "Correction of spelling, punctuation, syntax and style, checked for consistency against professional style guides."
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Structural Editing",
+                  "description": "Reorganization of how the book is arranged, identifying material to expand, cut or move."
+                }
+              }
+            ]
+          },
+          {
+            "@type": "OfferCatalog",
+            "name": "How a book editing project runs",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Manuscript Review and Evaluation",
+                  "description": "The book's purpose, audience and style are assessed to determine the level of editing needed."
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Structural and Developmental Edits",
+                  "description": "Story, flow and arrangement are worked through and returned with written guidance."
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Line and Copy Editing",
+                  "description": "Language is refined for clarity, phrasing, tone and consistency."
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Final Proofreading",
+                  "description": "A closing pass for typos, grammar and formatting errors."
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Ready for Readers",
+                  "description": "The manuscript is handed back prepared for submission or for self publishing."
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.yourbrand.com/book-editing-services#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": {
+              "@type": "WebPage",
+              "@id": "https://www.yourbrand.com/",
+              "name": "Home"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Book Editing Services",
+            "item": {
+              "@type": "WebPage",
+              "@id": "https://www.yourbrand.com/book-editing-services",
+              "name": "Book Editing Services"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.yourbrand.com/book-editing-services#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What are the four levels of book editing, and which one does my manuscript need?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Developmental editing works on structure, pacing, character arcs and themes. Structural editing rearranges what exists, cutting, expanding and moving sections. Structural and developmental work overlap heavily, so they are often run as one pass. Line editing reworks sentences for rhythm, clarity and voice. Copy editing corrects grammar, punctuation, syntax and consistency against a style guide. If you are unsure, the manuscript review that opens our book editing services diagnoses the level for you before any work begins."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is copy editing the same as proofreading?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. Copy editing works on a live manuscript, correcting grammar, punctuation, syntax and spelling while enforcing one style guide across the whole book, and it expects the text to keep changing afterward. Copy editing also queries facts, names and continuity as it goes. Proofreading is the last read before publication, run on text nobody intends to rewrite. Buying a proofread when the manuscript still needs copy editing leaves structural and stylistic problems untouched."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do I need editing if I already have beta readers?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Beta readers tell you where they lost interest. An editor tells you why and what to change. The two are complements, not substitutes, and beta feedback is genuinely useful material to hand over at the start of a developmental edit. What beta readers cannot do is enforce a style guide, resolve continuity across a whole manuscript, or bring the book up to the standards agents and retailers expect."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Will editing change my voice?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. Line editing and developmental editing both work inside your style rather than replacing it, which is why our book editors return feedback and suggestions on structure instead of silently rewriting scenes. Voice work goes the other way. We tune tone and word choice to your genre, so a thriller reads sharp and suspenseful while a memoir stays personal and honest."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What do I need to send before editing starts?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The complete manuscript in an editable word processing file, your genre, your intended reader, and whether you are submitting to agents or self-publishing. Tell us any style guide, spelling convention or series bible you already follow. If parts of the book are still unwritten, say so upfront, because an incomplete manuscript changes which level of editing is worth running first. Deadlines matter too, so name your publication date if you have one."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What do I get back at the end of an edit?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "An edited manuscript plus the reasoning behind it. Developmental and structural work comes back as clear, actionable feedback on plot, pacing and character, so you can see why a scene was flagged. Line and copy work comes back in the file itself. The scope agreed at the start also sets how many revision rounds are included, so ask for that in writing."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What makes book editing cost more or less?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Word count sets the floor, and the level of editing sets everything above it. Developmental and structural work costs more than copy editing because it involves reading, diagnosing and arguing for changes rather than correcting. A clean, consistently formatted manuscript costs less to edit than one with mixed styles and unresolved notes. Extra revision rounds added after the scope is agreed also raise it. A manuscript needing fact checking or heavy continuity repair costs more than one that does not."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I choose a book editing service?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ask which level of editing they are quoting for, and make them name it. Ask for a sample edit on your own pages rather than a generic portfolio. Ask which style guide they work to and how many revision rounds are included. Searching for book editors near me returns everyone from single freelancers to full companies, and only the ones who answer those three questions before payment are worth shortlisting."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "/book-proofreading-services": {
+    "organizationProfile": "standard",
+    "graph": [
+      {
+        "@type": "WebPage",
+        "@id": "https://www.yourbrand.com/book-proofreading-services#webpage",
+        "url": "https://www.yourbrand.com/book-proofreading-services",
+        "name": "Book Proofreading Services",
+        "description": "Book proofreading for authors, running a five stage check across grammar, punctuation, spelling, continuity, formatting and layout before a manuscript goes to publication.",
+        "isPartOf": {
+          "@id": "https://www.yourbrand.com/#website"
+        },
+        "inLanguage": "en-US",
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://www.yourbrand.com/logo.png"
+        },
+        "about": {
+          "@id": "https://www.yourbrand.com/book-proofreading-services#service"
+        },
+        "breadcrumb": {
+          "@id": "https://www.yourbrand.com/book-proofreading-services#breadcrumb"
+        }
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.yourbrand.com/book-proofreading-services#service",
+        "name": "Book Proofreading Services",
+        "serviceType": "Book proofreading",
+        "description": "Book proofreading for authors, covering grammar, punctuation and spelling, continuity of names, settings and timelines, and consistency of style, tone, formatting and layout across the full manuscript.",
+        "url": "https://www.yourbrand.com/book-proofreading-services",
+        "provider": {
+          "@id": "https://www.yourbrand.com/#organization"
+        },
+        "areaServed": {
+          "@type": "Country",
+          "name": "United States"
+        },
+        "audience": {
+          "@type": "Audience",
+          "audienceType": "Authors, including first-time authors"
+        },
+        "hasOfferCatalog": [
+          {
+            "@type": "OfferCatalog",
+            "name": "How a book proofreading project runs",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Initial Read Through",
+                  "description": "A full read to establish the content, flow, tone and structure of the manuscript before corrections begin."
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Grammar and Punctuation Check",
+                  "description": "Correction of grammar, punctuation and spelling, including sentence structure and subject verb agreement."
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Consistency Review",
+                  "description": "A check of character names, settings and timeline details, and of style, tone and formatting across the book."
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Formatting and Layout Review",
+                  "description": "A check of headings, subheadings, page numbers, fonts, margins and alignment for print and digital editions."
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Final Quality Check",
+                  "description": "A closing pass over the full manuscript for anything missed at the earlier stages."
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.yourbrand.com/book-proofreading-services#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": {
+              "@type": "WebPage",
+              "@id": "https://www.yourbrand.com/",
+              "name": "Home"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Book Proofreading Services",
+            "item": {
+              "@type": "WebPage",
+              "@id": "https://www.yourbrand.com/book-proofreading-services",
+              "name": "Book Proofreading Services"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.yourbrand.com/book-proofreading-services#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What does the five step proofreading process cover?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "An initial read-through for content, flow and tone. A grammar and punctuation check covering sentence structure, subject-verb agreement, commas, semicolons and typos. A consistency review of character names, settings and timeline details. A formatting and layout review of headings, page numbers, fonts and margins. Then a final quality check that catches anything the earlier stages missed, the last proofread and polish a manuscript gets before publication."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does proofreading include formatting and layout?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, as a review rather than a redesign. Our proofreaders check that headings and subheadings are applied consistently, that page numbers run correctly, and that fonts, margins and alignment hold across the whole book. That check matters because ebook files reflow on the reader's device, so a layout that holds in print can still break on screen. A layout error surviving to publication looks exactly as careless as a typo, and readers notice both."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What kinds of consistency errors does proofreading catch?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The ones that survive editing because they are correct in isolation. A character whose name is spelled two ways. A timeline where a Tuesday becomes a Thursday. A town described differently in chapter two and chapter nineteen. Mixed spelling conventions, inconsistent number and date styles, and hyphenation that changes between chapters. Each one reads fine on its own page and wrong across the book."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "When is my manuscript actually ready for proofreading?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "When nobody plans to rewrite it. Book proofreading services are the last pass before publication, so they belong after developmental and copy editing are finished and after the book has been formatted into its final layout. If you are still cutting scenes, changing chapter order or rewording paragraphs, the manuscript is not ready, and the proofread will have to be repeated. A proofread on an unformatted draft also misses every layout error, because there is no layout yet."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What condition does my file need to be in before proofreading?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Final. Send the manuscript in the form readers will see it, which usually means the typeset or formatted file rather than a rough draft. Tell us the spelling convention, the style guide and the intended market. Flag anything deliberate that looks like an error, such as invented words, dialect spellings, a character who misspells things on purpose, or a stylistic choice you want left alone."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How many rounds of review does a manuscript go through?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "More than one. Our proofreading runs as multiple rounds of review rather than a single sweep, because the errors found on a second read are rarely the errors found on the first. The five stages each look for something different, and the final quality check exists specifically to catch what earlier stages let through. The number of passes is often the real difference between two quotes that look alike, so ask any provider how many their price actually covers."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What pushes the price of a proofread up?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Word count sets the base, and the condition of the manuscript moves it. A book that has already been copy edited proofreads faster than one that has not, because the proofreader is confirming rather than correcting. Formatted files with layout to review cost more than plain text. Rush turnarounds against a fixed publication date cost more than a schedule with room in it."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I choose a book proofreader?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ask what the proofread covers beyond spelling, specifically whether consistency and layout are included or quoted separately. Ask how many rounds of review the manuscript gets. Ask whether they will tell you if the book needs editing instead, because a proofreader willing to say that is worth more than one who takes the job regardless. Ask how queries and deliberate stylistic choices are handled."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "/book-cover-design-services": {
+    "organizationProfile": "standard",
+    "graph": [
+      {
+        "@type": "WebPage",
+        "@id": "https://www.yourbrand.com/book-cover-design-services#webpage",
+        "url": "https://www.yourbrand.com/book-cover-design-services",
+        "name": "Book Cover Design Services",
+        "description": "Book cover design for authors, running from genre and audience research through concept sketches and refinement to print ready and digital files.",
+        "isPartOf": {
+          "@id": "https://www.yourbrand.com/#website"
+        },
+        "inLanguage": "en-US",
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://www.yourbrand.com/logo.png"
+        },
+        "about": {
+          "@id": "https://www.yourbrand.com/book-cover-design-services#service"
+        },
+        "breadcrumb": {
+          "@id": "https://www.yourbrand.com/book-cover-design-services#breadcrumb"
+        }
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.yourbrand.com/book-cover-design-services#service",
+        "name": "Book Cover Design Services",
+        "serviceType": "Book cover design",
+        "description": "Book cover design for authors, working from genre and audience research through multiple concept directions to a finished cover supplied as high resolution print ready and digital files.",
+        "url": "https://www.yourbrand.com/book-cover-design-services",
+        "provider": {
+          "@id": "https://www.yourbrand.com/#organization"
+        },
+        "areaServed": {
+          "@type": "Country",
+          "name": "United States"
+        },
+        "audience": {
+          "@type": "Audience",
+          "audienceType": "Authors, including first-time authors"
+        },
+        "hasOfferCatalog": [
+          {
+            "@type": "OfferCatalog",
+            "name": "How a book cover design project runs",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Discovery and Research",
+                  "description": "The book's genre, intended audience and category conventions are reviewed before any design begins."
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Concept Development",
+                  "description": "Several design directions are sketched, covering theme, typography and composition."
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Design and Refinement",
+                  "description": "The chosen direction is built out using custom illustration or selected stock elements."
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Feedback and Revisions",
+                  "description": "The design is adjusted across review rounds against the author's notes."
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Finalization and Delivery",
+                  "description": "High resolution print ready and digital files are prepared and supplied."
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.yourbrand.com/book-cover-design-services#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": {
+              "@type": "WebPage",
+              "@id": "https://www.yourbrand.com/",
+              "name": "Home"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Book Cover Design Services",
+            "item": {
+              "@type": "WebPage",
+              "@id": "https://www.yourbrand.com/book-cover-design-services",
+              "name": "Book Cover Design Services"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.yourbrand.com/book-cover-design-services#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What does a book cover design project actually include?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The front cover at minimum, and for print titles a full wrap with spine and back cover sized to your final page count and paper stock. Agree the list before design starts, because a spine cannot be laid out until the page count is fixed. Ebook covers, paperback wraps, hardcover jackets and audiobook squares are all different files, even when they share one design. Hardcover jackets add flaps, which need their own copy and their own measurements."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the difference between custom artwork and stock imagery on a cover?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Stock imagery is licensed photography or illustration that any other author can also license, which is why the same faces and landscapes turn up on multiple covers in the same genre. Custom artwork is originated for your book, so it can show a specific character, object or scene the story actually contains. Many covers combine both, with custom elements built over a licensed base."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Why does my cover need to work as a thumbnail?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Because that is the size most readers see it at. On Amazon, Barnes & Noble and every retailer search result, your cover competes as a small image next to dozens of others. A title set in thin, decorative or low-contrast type disappears at that scale even when it looks striking full size. We check readability at thumbnail size during design, not after delivery. The same test applies to your author name and to any series branding the cover carries."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What information does a cover designer need from me?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Your title and subtitle exactly as they will appear, your author name as it will be credited, your genre and two or three comparable titles you want to sit beside on a shelf. For print, the final page count, trim size and paper stock. A short summary and any imagery the book genuinely contains help more than a mood board of covers you admire."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How many revisions do I get?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Enough to get the cover right. Revisions are part of the design process here, not a counted extra. Once a direction is chosen we refine it with you, typography, color, imagery and layout, until the cover is one you are happy to put your name on. Getting there is quicker when feedback is specific, so tell us what is not working and why, and expect the cover to improve with each pass."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which files do I receive when the cover is finished?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "High-resolution print-ready files and digital-friendly versions, prepared once the design is approved. Print files carry the bleed, trim and spine measurements your printer requires. Digital files are sized for retailer upload. Agree the format list at the start alongside the cover types you need, because a file that was never scoped, such as an audiobook square, has to be produced separately later."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What drives the cost of a book cover?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Original artwork is the biggest driver, since illustrating a character or scene from nothing takes far longer than composing licensed imagery. After that come the number of formats, since a print wrap, an ebook file and an audiobook square are three layouts rather than one. Custom lettering costs more than typeset titles, and extra concept directions cost more than revisions within one."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I choose a book cover designer?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ask to see full covers in your genre, not a grid of thumbnails from every genre they have ever worked in. Ask which files and formats the quote includes, and whether the print wrap is one of them. Ask how many concept directions and revision rounds are covered. Searching for a book cover designer near me surfaces very different offers, and those three answers separate them."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "/children-book-publication-services": {
+    "organizationProfile": "standard",
+    "graph": [
+      {
+        "@type": "WebPage",
+        "@id": "https://www.yourbrand.com/children-book-publication-services#webpage",
+        "url": "https://www.yourbrand.com/children-book-publication-services",
+        "name": "Children Book Publication Services",
+        "description": "Children book publishing across picture books, early readers and educational books, covering manuscript formatting, illustration, typesetting, printing and distribution.",
+        "isPartOf": {
+          "@id": "https://www.yourbrand.com/#website"
+        },
+        "inLanguage": "en-US",
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://www.yourbrand.com/logo.png"
+        },
+        "about": {
+          "@id": "https://www.yourbrand.com/children-book-publication-services#service"
+        },
+        "breadcrumb": {
+          "@id": "https://www.yourbrand.com/children-book-publication-services#breadcrumb"
+        }
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.yourbrand.com/children-book-publication-services#service",
+        "name": "Children Book Publication Services",
+        "serviceType": "Children book publishing",
+        "description": "Children book publishing for authors, covering manuscript formatting, illustration and book design, typesetting and proofing, printing and production, and publication across major platforms.",
+        "url": "https://www.yourbrand.com/children-book-publication-services",
+        "provider": {
+          "@id": "https://www.yourbrand.com/#organization"
+        },
+        "areaServed": {
+          "@type": "Country",
+          "name": "United States"
+        },
+        "audience": {
+          "@type": "Audience",
+          "audienceType": "Authors, including first-time authors"
+        },
+        "hasOfferCatalog": [
+          {
+            "@type": "OfferCatalog",
+            "name": "Children book types published",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Picture Books",
+                  "description": "Concept development, illustration, layout design and printing for books aimed at early childhood readers."
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Early Readers",
+                  "description": "Books built on age appropriate language and structured narrative with supporting illustration, formatted for children building reading confidence."
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Educational Books",
+                  "description": "Activity books, STEM guides and concept based learning materials, developed with matching visuals and design."
+                }
+              }
+            ]
+          },
+          {
+            "@type": "OfferCatalog",
+            "name": "How a children book publishing project runs",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Manuscript Formatting",
+                  "description": "The story is prepared with the structure and layout a publisher requires."
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Illustration and Book Design",
+                  "description": "Illustrations and page layouts are produced and finalized."
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Typesetting and Proofing",
+                  "description": "Text placement, fonts and page flow are set and checked."
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Printing and Production",
+                  "description": "The book is printed and produced to the agreed specification."
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Publishing and Distribution",
+                  "description": "The book is published and listed across major platforms."
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.yourbrand.com/children-book-publication-services#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": {
+              "@type": "WebPage",
+              "@id": "https://www.yourbrand.com/",
+              "name": "Home"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Children Book Publication Services",
+            "item": {
+              "@type": "WebPage",
+              "@id": "https://www.yourbrand.com/children-book-publication-services",
+              "name": "Children Book Publication Services"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.yourbrand.com/children-book-publication-services#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is the difference between a picture book, an early reader and an educational book?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A picture book carries the story mainly in its artwork and is read aloud to a child who is not reading yet. An early reader uses short, controlled sentences with supporting pictures so a child can get through it alone and build confidence. An educational book teaches a defined concept or skill, and covers activity books, STEM guides and concept based learning material. We publish all three."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What are the stages of publishing a children's book?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Five. Manuscript formatting prepares the story with publishing structure and layout. Illustration and book design produces and finalizes the artwork and page layouts. Typesetting and proofing sets text placement, fonts and page flow. Printing and production manufactures the book to the agreed specification. Publishing and distribution lists it across major platforms. Each stage is approved before the next one starts."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Are illustrations included in publishing, or arranged separately?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Illustration is one of the five publishing stages, so it can be handled inside the same project. Authors who already own finished artwork can bring it in, and the design work is built around what exists rather than starting over. Authors with nothing drawn yet go through our children's book illustration service first, and the finished art then flows straight into design, typesetting and print."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What makes a children's book manuscript work?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Children's books are built around the page turn. The manuscript is written to a fixed spread count, so every turn lands on a moment worth turning for. Word economy matters more than in any other format, because the illustrations carry what the words leave out. The text also has to survive being read aloud many times over. Most first drafts fail on structure, not on the idea, and that is the stage our writing service works on with you."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What size and binding should a children's book use?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Trim size and binding are chosen before illustration, because the artwork is drawn to fit them. Larger landscape trims suit picture books read aloud with an adult holding the book. Smaller portrait trims suit early readers held by a child. Hardcover suits gift and library buyers and survives repeat handling. Paperback keeps the book lighter and is common for classroom and activity titles."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Where is my children's book sold once it is published?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Distribution is the final stage of the project. The finished book is prepared to each platform's file and cover specification, then listed across major online retail channels. The titles in our portfolio are listed on Amazon. Print on demand means physical copies are manufactured as they are ordered, so you are not sitting on stock, and an ebook edition can be listed alongside the printed one."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What pushes the cost of a children's book publishing project up or down?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Page count, the number of illustrated pages and the print specification move it most. Color throughout costs more than color on selected pages. Hardcover with special finishes costs more than a standard paperback. Bringing artwork you already own costs less than originating a full new set. The habit that adds most is changing the manuscript after typesetting has started, because every page then has to be reflowed."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I choose a children's book publishing company?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ask to see finished children's titles rather than covers alone, so you can judge interior layout and print quality. Ask who owns the files at the end and exactly what you receive. Ask whether illustration, typesetting and print are handled in one place or subcontracted out. Ask for the stage list and what gets approved at each gate. Any children's book publishing service should answer all four before you commit."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "/children-book-illustrator": {
+    "organizationProfile": "standard",
+    "graph": [
+      {
+        "@type": "WebPage",
+        "@id": "https://www.yourbrand.com/children-book-illustrator#webpage",
+        "url": "https://www.yourbrand.com/children-book-illustrator",
+        "name": "Children Book Illustration Services",
+        "description": "Children book illustration for authors, covering character development, concept sketching, line work, color and a consistent visual style across every page of a book.",
+        "isPartOf": {
+          "@id": "https://www.yourbrand.com/#website"
+        },
+        "inLanguage": "en-US",
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://www.yourbrand.com/logo.png"
+        },
+        "about": {
+          "@id": "https://www.yourbrand.com/children-book-illustrator#service"
+        },
+        "breadcrumb": {
+          "@id": "https://www.yourbrand.com/children-book-illustrator#breadcrumb"
+        }
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.yourbrand.com/children-book-illustrator#service",
+        "name": "Children Book Illustration Services",
+        "serviceType": "Children book illustration",
+        "description": "Children book illustration for authors, covering character development, concept sketches, refined line work, color and shading, and a consistent visual style carried across every illustration in the book.",
+        "url": "https://www.yourbrand.com/children-book-illustrator",
+        "provider": {
+          "@id": "https://www.yourbrand.com/#organization"
+        },
+        "areaServed": {
+          "@type": "Country",
+          "name": "United States"
+        },
+        "audience": {
+          "@type": "Audience",
+          "audienceType": "Authors, including first-time authors"
+        },
+        "hasOfferCatalog": [
+          {
+            "@type": "OfferCatalog",
+            "name": "How a children book illustration project runs",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Understanding the Story",
+                  "description": "The manuscript, its characters, themes and mood are reviewed so the artwork matches the author's intent."
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Concept Sketching",
+                  "description": "Thumbnail sketches and character concepts are produced to test composition, layout and style, then shared for feedback."
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Refining the Illustrations",
+                  "description": "Approved sketches are developed into cleaner line work with detailed backgrounds and settled composition."
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Adding Colors and Depth",
+                  "description": "Color, shading and texture are applied across the artwork."
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Finalizing and Polishing",
+                  "description": "Final adjustments are made and visual consistency is checked across the full set of illustrations."
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.yourbrand.com/children-book-illustrator#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": {
+              "@type": "WebPage",
+              "@id": "https://www.yourbrand.com/",
+              "name": "Home"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Children Book Illustration Services",
+            "item": {
+              "@type": "WebPage",
+              "@id": "https://www.yourbrand.com/children-book-illustrator",
+              "name": "Children Book Illustration Services"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.yourbrand.com/children-book-illustrator#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What illustration styles are used in children's books?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Watercolor and gouache read as warm and traditional, and suit bedtime and nature stories. Digital painting gives rich texture with easier revision. Flat vector and cut paper collage read bold and modern, and hold up small on a screen. Line and wash keeps the drawing visible under light color, which suits humor. Pencil and crayon texture suits gentle, nostalgic titles. Most books pick one style and hold it throughout."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What types of illustrations does a children's book need?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Most books use several types together. Double page spreads carry the big story moments across both open pages. Single page illustrations sit opposite a block of text. Spot illustrations are small pieces that break up a page without filling it. Vignettes fade out at the edges instead of sitting in a frame. Cover art, title page art and endpapers are drawn separately, and the cover is usually drawn last."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I choose an illustration style for my book?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Start with who reads it and how. A book read aloud to a small child can hold detail an adult will point at and talk about. A book read alone by a new reader needs clearer shapes and less clutter. Match the mood of your text rather than fighting it, and check the style still reads at your trim size and on a small screen. Bring three books whose look you want."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do you keep a character looking the same on every page?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "With a character sheet built before any page art starts. It fixes the character from several angles, with set proportions, features, palette and clothing, plus a range of expressions. Every later illustration is drawn against that sheet. Consistency is checked again at the end across the full set, which is when small drifts in face shape, color or scale get corrected before pages go to layout."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do I own the illustrations once they are finished?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. The illustrations created for your book are yours. You own the artwork and you decide where it is used, on the cover, inside the book, in your marketing, on a future edition or on merchandise. You receive the layered source files as well as the finished ones, so a later edition can be adjusted without commissioning the work again. Nothing is held back and nothing is licensed back to you."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What format is the finished artwork delivered in?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Print ready page art at the resolution your printer asks for, built to trim size with bleed on every edge that runs off the page, so nothing important sits near the cut line. Separate web and social versions come at screen resolution. Cover art is supplied as a full wrap where the book is printed, including spine and back. Agree the file list and formats at briefing, before drawing starts."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What makes children's book illustration cost more, and what keeps it down?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The number of finished pieces is the biggest driver, followed by how much sits inside each one. Full bleed spreads with several characters and detailed backgrounds cost more than spot art on a plain ground. More named characters means more character sheets. Reusing a background across several scenes costs less than drawing a new one each time. Approving sketches promptly stops a project stretching and costing more."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I choose a children's book illustrator?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ask to see one complete book rather than a gallery of single best images, because holding one look across a whole book is the hard part. Check the same character appears on several pages in that sample. Ask who owns the artwork and which files you receive. Ask how many sketch rounds happen before color. Children's book illustration services vary widely on all four, and the answers should come first."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "/audiobook-recording-services": {
+    "organizationProfile": "standard",
+    "graph": [
+      {
+        "@type": "WebPage",
+        "@id": "https://www.yourbrand.com/audiobook-recording-services#webpage",
+        "url": "https://www.yourbrand.com/audiobook-recording-services",
+        "name": "Audiobook Recording Services",
+        "description": "Audiobook recording and production in unabridged, abridged, dramatized and single narrator formats, covering narrator casting, studio recording, editing, mastering and platform distribution.",
+        "isPartOf": {
+          "@id": "https://www.yourbrand.com/#website"
+        },
+        "inLanguage": "en-US",
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://www.yourbrand.com/logo.png"
+        },
+        "about": {
+          "@id": "https://www.yourbrand.com/audiobook-recording-services#service"
+        },
+        "breadcrumb": {
+          "@id": "https://www.yourbrand.com/audiobook-recording-services#breadcrumb"
+        }
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.yourbrand.com/audiobook-recording-services#service",
+        "name": "Audiobook Recording Services",
+        "serviceType": "Audiobook production",
+        "description": "Audiobook recording and production for authors, covering narrator casting, studio recording, editing and mastering, and preparation for distribution across major audiobook platforms.",
+        "url": "https://www.yourbrand.com/audiobook-recording-services",
+        "provider": {
+          "@id": "https://www.yourbrand.com/#organization"
+        },
+        "areaServed": {
+          "@type": "Country",
+          "name": "United States"
+        },
+        "audience": {
+          "@type": "Audience",
+          "audienceType": "Authors, including first-time authors"
+        },
+        "hasOfferCatalog": [
+          {
+            "@type": "OfferCatalog",
+            "name": "Audiobook formats",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Unabridged Audiobooks",
+                  "description": "Every word of the book recorded as written, with nothing cut."
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Abridged Audiobooks",
+                  "description": "A shortened recording that trims non essential content while keeping the core of the book intact."
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Dramatized Audiobooks",
+                  "description": "A multi voice production using several voice actors, sound effects and background music."
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Narrated Audiobooks",
+                  "description": "A single narrator recording, delivered either by the author or by a professional voice artist."
+                }
+              }
+            ]
+          },
+          {
+            "@type": "OfferCatalog",
+            "name": "How an audiobook project runs",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Pre Production and Planning",
+                  "description": "Tone, narrator selection, pacing and pronunciation are settled before recording begins."
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Professional Narration",
+                  "description": "The book is read by a professional narrator or by the author."
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Audio Recording",
+                  "description": "Recording is carried out in a noise controlled studio environment."
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Editing",
+                  "description": "Sound engineers remove errors, balance levels and master the audio."
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Final Review and Distribution",
+                  "description": "The finished audio is checked against platform requirements and prepared for publication."
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.yourbrand.com/audiobook-recording-services#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": {
+              "@type": "WebPage",
+              "@id": "https://www.yourbrand.com/",
+              "name": "Home"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Audiobook Recording Services",
+            "item": {
+              "@type": "WebPage",
+              "@id": "https://www.yourbrand.com/audiobook-recording-services",
+              "name": "Audiobook Recording Services"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.yourbrand.com/audiobook-recording-services#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is the difference between unabridged, abridged, dramatized and narrated audiobooks?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Unabridged records every word exactly as written, with nothing cut. Abridged trims non essential content while keeping the core story intact, which suits long non fiction. Dramatized brings in several voice actors with sound effects and music, closer to a radio play. Narrated is one voice carrying the whole book, delivered either by a professional voice artist or by the author. Most titles are unabridged and single narrator."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which books work well as audiobooks, and which do not?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Dialogue heavy fiction, memoir, self help and business titles carry well, because they are already written to be heard. Books leaning on tables, charts, footnotes, worksheets or illustration need rework before they translate, since a listener cannot glance back at a figure. Children's picture books are hardest of all, because the artwork carries half the story. That gets flagged at planning rather than after recording."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How is the narrator chosen for my audiobook?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "By auditioning voices against a real passage from your book rather than a generic script. Casting weighs the age and gender the text implies, accent, pace, and how a voice handles dialogue against straight narration. Genre matters, because a thriller and a memoir want different energy. Authors can narrate their own book where the voice is part of the appeal, which is common on memoir and business titles."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you use AI voices to record audiobooks?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. Every recording is performed by a person in a studio. Synthetic voices flatten the things listeners actually stay for, timing on a joke, a held pause before a reveal, the shift between two characters inside one conversation. A human narrator also takes direction, so a scene that lands wrong can be performed again differently in the same session. No AI and no monotone is the standard on every title."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What do you need from me before recording starts?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The final manuscript, because a change made after recording means booking the narrator again. A pronunciation guide for character names, place names and any invented or technical words. Notes on tone, pacing and how you hear each main character. Your cover file and your release date. If you have a voice in mind, send two or three narrators or audiobooks whose sound yours should sit near."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What do I receive once the audiobook is finished?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Chapter by chapter audio in the format your chosen platform requires, plus opening and closing credits and a retail sample. Every platform publishes its own loudness, peak and noise floor requirements, and the master is checked against them before submission. Ask for the mastered audio itself rather than a distribution link alone, so the title can move to another platform later without being re recorded."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What drives the cost of an audiobook up or down?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Length first, because every extra hour of finished audio is more studio time, more editing and more review. A single narrator costs less than a full cast. Plain narration costs less than a production carrying sound effects and music. Author narration removes casting but can add studio days if the author is not an experienced reader. Re recording after approval, caused by a late manuscript change, adds most of all."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I choose an audiobook production company?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ask for a full chapter of a finished audiobook rather than a short highlight reel, because consistency across hours is what you are buying. Ask whether narrators audition using your own text. Ask who owns the master files and what you receive. Ask how pickups are handled if you catch an error after review. Audiobook recording services differ most on that last point, and it is what costs you later."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "/author-website-design-services": {
+    "organizationProfile": "standard",
+    "graph": [
+      {
+        "@type": "WebPage",
+        "@id": "https://www.yourbrand.com/author-website-design-services#webpage",
+        "url": "https://www.yourbrand.com/author-website-design-services",
+        "name": "Author Website Design Services",
+        "description": "Author website design and development, covering custom design, book landing pages, email signup, a blog or content hub, event and media pages, and ongoing maintenance.",
+        "isPartOf": {
+          "@id": "https://www.yourbrand.com/#website"
+        },
+        "inLanguage": "en-US",
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://www.yourbrand.com/logo.png"
+        },
+        "about": {
+          "@id": "https://www.yourbrand.com/author-website-design-services#service"
+        },
+        "breadcrumb": {
+          "@id": "https://www.yourbrand.com/author-website-design-services#breadcrumb"
+        }
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.yourbrand.com/author-website-design-services#service",
+        "name": "Author Website Design Services",
+        "serviceType": "Author website design",
+        "description": "Custom author website design and development, covering book landing pages, email signup, a blog or content hub, event and media pages, responsive build and ongoing maintenance.",
+        "url": "https://www.yourbrand.com/author-website-design-services",
+        "provider": {
+          "@id": "https://www.yourbrand.com/#organization"
+        },
+        "areaServed": {
+          "@type": "Country",
+          "name": "United States"
+        },
+        "audience": {
+          "@type": "Audience",
+          "audienceType": "Authors, including first-time authors"
+        },
+        "hasOfferCatalog": [
+          {
+            "@type": "OfferCatalog",
+            "name": "Author website features",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Custom Design",
+                  "description": "A site designed to the author's own brand rather than assembled from a stock template."
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Book Landing Pages",
+                  "description": "A dedicated page for each book carrying purchase links, reviews and excerpts."
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Email Signup Integration",
+                  "description": "A mailing list signup form integrated into the site."
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Blog and Content Hub",
+                  "description": "A blog or content area for news, updates and longer posts."
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Event and Media Pages",
+                  "description": "Pages for appearances and press so journalists, podcasters and organizers can make contact."
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Website Maintenance",
+                  "description": "Ongoing updates, security checks and technical upkeep after launch."
+                }
+              }
+            ]
+          },
+          {
+            "@type": "OfferCatalog",
+            "name": "How an author website project runs",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Discovery and Planning",
+                  "description": "Goals, audience and style are established and the site structure and feature set are mapped."
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Design and Development",
+                  "description": "A custom design is produced and built with responsive layout and navigation."
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Content Integration",
+                  "description": "Author biography, book pages, media, blog and signup forms are added to the site."
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Testing and Launch",
+                  "description": "The site is tested for performance, device compatibility and function, then made live."
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Ongoing Maintenance and Updates",
+                  "description": "Content updates, fixes and improvements continue after launch."
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.yourbrand.com/author-website-design-services#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": {
+              "@type": "WebPage",
+              "@id": "https://www.yourbrand.com/",
+              "name": "Home"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Author Website Design Services",
+            "item": {
+              "@type": "WebPage",
+              "@id": "https://www.yourbrand.com/author-website-design-services",
+              "name": "Author Website Design Services"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.yourbrand.com/author-website-design-services#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What pages does an author website need?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A home page that says who you are and what you write, a page for each book with buy links, an about page written for readers and press, and a contact page. Beyond that, an email signup, a blog or content hub for updates, and event and media pages if you speak, tour or get interviewed. Anything past that is optional and should earn its place before it goes on."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What goes on a book landing page?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "One book, everything a reader needs to decide, and none of your other titles competing for attention. The cover at a readable size, the description, an excerpt or opening pages, review quotes, the formats available, and purchase links for every retailer that stocks it. For a series, the reading order and where this title sits in it. For an upcoming book, the release date and a preorder link."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Why do I need an author website if I already have social media?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Because you do not own the social platforms. Reach, rules and the account itself can change without warning, and a following built there cannot be exported. A website is yours, it can be found on its own, and it turns a visitor into an email address you keep. It is also where journalists, festival organizers and rights buyers go looking for a bio, a photo and a way to contact you."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Should I build my own author website on WordPress?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Most authors who try it end up with a template that looks like every other template, and they spend writing hours on plugins, hosting and updates instead. A built site is designed to your own brand, carries a landing page for each book with working retailer links, connects your mailing list, and is tested across phones, tablets and browsers before launch. It is then maintained, so security updates stop being your problem."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do I have to write the website copy myself?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. Content integration is part of the build. You supply the raw material, your bio facts, book descriptions, covers, retailer links, review quotes, an author photo and any press coverage, and the copy is written and placed around the site structure. If a book description or an author bio needs writing from scratch, it is drafted for your approval rather than left as an empty box for you to fill."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What does website maintenance cover after launch?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Software and security updates, backups, uptime checks, broken link checks, and fixing whatever breaks after a platform update. It also covers the content work a live author site keeps needing, adding a new book page, updating retailer links, posting events, refreshing the bio and photo. Sites left alone quietly break, usually at the retailer links, and that is the one part that costs you sales."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What makes an author website cost more, and what keeps it affordable?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Page count drives it most, and giving every book its own landing page is where that number grows. A one book site is a small build. Custom illustration, animation, direct ecommerce and member areas all add work. Reusing what you already own, your cover art, existing photography and written book descriptions, costs less than commissioning new material. Structural changes requested after design approval add most of all."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I choose someone to build my author website?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ask to see live author sites they have built, then open those sites on a phone. Ask who owns the domain, the hosting and the files, and confirm the answer is you. Ask what happens when you publish your next book, whether you can add it or must pay for every change. Ask what maintenance covers. Author website design services differ most on ownership and on life after launch."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "/book-marketing-services": {
+    "organizationProfile": "standard",
+    "graph": [
+      {
+        "@type": "WebPage",
+        "@id": "https://www.yourbrand.com/book-marketing-services#webpage",
+        "url": "https://www.yourbrand.com/book-marketing-services",
+        "name": "Book Marketing Services",
+        "description": "Book marketing for authors, covering pre launch campaigns, audience targeting, retail listing optimization, social and influencer promotion, advertising and post launch activity.",
+        "isPartOf": {
+          "@id": "https://www.yourbrand.com/#website"
+        },
+        "inLanguage": "en-US",
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://www.yourbrand.com/logo.png"
+        },
+        "about": {
+          "@id": "https://www.yourbrand.com/book-marketing-services#service"
+        },
+        "breadcrumb": {
+          "@id": "https://www.yourbrand.com/book-marketing-services#breadcrumb"
+        }
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.yourbrand.com/book-marketing-services#service",
+        "name": "Book Marketing Services",
+        "serviceType": "Book marketing",
+        "description": "Book marketing for authors, covering pre launch campaigns, audience targeting and category positioning, retail listing optimization, social and influencer promotion, paid advertising, and continued post launch activity.",
+        "url": "https://www.yourbrand.com/book-marketing-services",
+        "provider": {
+          "@id": "https://www.yourbrand.com/#organization"
+        },
+        "areaServed": {
+          "@type": "Country",
+          "name": "United States"
+        },
+        "audience": {
+          "@type": "Audience",
+          "audienceType": "Authors, including first-time authors"
+        },
+        "hasOfferCatalog": [
+          {
+            "@type": "OfferCatalog",
+            "name": "Social promotion for books",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "BookTok and Bookstagram Promotion",
+                  "description": "Video and image content produced for TikTok and Instagram, including collaborations with reader focused creators."
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Engagement Driven Content",
+                  "description": "Polls, question and answer posts, character features and teasers built to start conversation around the book."
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Live Streams and Author Takeovers",
+                  "description": "Live readings, question and answer sessions and behind the scenes streams across social platforms."
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Reader Challenges and User Generated Content",
+                  "description": "Hashtag challenges and interactive campaigns that invite readers to post their own content."
+                }
+              }
+            ]
+          },
+          {
+            "@type": "OfferCatalog",
+            "name": "How a book marketing project runs",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Pre Launch Strategy",
+                  "description": "Cover reveals, pre order campaigns, early reader outreach and social teasers set up ahead of publication."
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Audience Targeting and Positioning",
+                  "description": "The intended readership is identified and the book is positioned into the right retail categories using keyword and competitive research."
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Multi Platform Promotion",
+                  "description": "Coordinated promotion across social platforms, email, blog tours and podcast features, supported by paid advertising."
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Reviews and Reader Engagement",
+                  "description": "Advance reader copy programs and reader engagement campaigns run around the launch."
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Sustained Growth",
+                  "description": "Continued advertising, seasonal promotion, retargeting and content marketing after launch."
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.yourbrand.com/book-marketing-services#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": {
+              "@type": "WebPage",
+              "@id": "https://www.yourbrand.com/",
+              "name": "Home"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Book Marketing Services",
+            "item": {
+              "@type": "WebPage",
+              "@id": "https://www.yourbrand.com/book-marketing-services",
+              "name": "Book Marketing Services"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.yourbrand.com/book-marketing-services#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What do the five stages of a book marketing campaign cover?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Pre-launch buzz through cover reveals, pre-orders, early reader copies and influencer outreach. Audience targeting and positioning, using Amazon keyword optimization, category selection and competitive analysis. Multi-platform promotion across BookTok, Bookstagram, Facebook, YouTube, email, blog tours and podcasts. Sales and review activity through ARC programs and reader engagement. Then sustained growth with continued ads, seasonal promotions and retargeting after launch."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the difference between book distribution and book marketing?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Distribution decides where a book can be bought. Marketing decides whether anyone goes looking for it. Getting a title listed with retailers, in the right formats and the right territories, is a supply question and it is a separate service. Book marketing services start after that, working on the metadata, categories, content and outreach that bring readers to a listing that already exists. Promoting a book readers cannot buy in their region wastes the spend that reaches them."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is an ARC program and why does it matter?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "An ARC is an Advance Reader Copy, sent to readers, reviewers and bloggers before publication so they can read the book in time to talk about it on release day. ARC distribution is scheduled backwards from the launch date, which is why it needs lead time. Reviews that come from an ARC program are genuine reader opinions, so their content is never controlled by the campaign."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "When should book marketing start?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Before publication, not after. The pre-launch stage is where cover reveals, pre-order campaigns, early reader outreach and teaser content do their work, and every one of those depends on having a release date to build toward. A book that is already published can still be marketed, but the launch window, when retailer visibility and reader attention are easiest to earn, has passed. Pre-orders only exist before a release date, so that option closes the day the book goes live."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Why does BookTok work for some books and not others?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "BookTok and Bookstagram reward books that give viewers something to react to, which usually means a strong premise, a character readers argue about, or a visual hook the cover already carries. Quiet literary titles and technical non-fiction are harder to fit that format and are often better served by podcasts, newsletters and reader communities. The platform choice follows the book, not the other way round."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What assets do you need from me to start a campaign?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Your final cover, your release date, your book's description and keywords, and your retailer links once they exist. An author photo and short bio, because interviews and features will ask for both. Send anything already published about the book too, including a trailer, an excerpt or earlier press. Any audience you already have counts, meaning a mailing list, social following or previous readers. Tell us your genre and your closest comparable titles, since positioning starts there."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What does a book marketing budget actually go toward?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Paid media is the line that moves most, because ad spend is separate from the work of running the campaign and scales with how many platforms you buy on. Campaign length is the next driver, since a long pre-launch runway costs more than a short one. Influencer collaborations, podcast placements and original video production all cost more than organic posting. Assets you already own, such as a cover, a trailer or author photography, pull that line down."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I choose a book marketing company?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ask what they will actually do each week, named as activities rather than outcomes, because no honest provider can promise sales, rankings or reviews. Ask whether ad spend sits inside the quote or beside it. Ask which platforms suit your genre and why. Searching book marketing services near me returns very different offers, and the ones that answer in deliverables rather than promises are the shortlist."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "/about-us": {
+    "organizationProfile": "standard",
+    "graph": [
+      {
+        "@type": "AboutPage",
+        "@id": "https://www.yourbrand.com/about-us#webpage",
+        "url": "https://www.yourbrand.com/about-us",
+        "name": "About Your Brand",
+        "description": "Who Your Brand is, how the company works with authors, and the services it covers from first draft through publication and marketing.",
+        "isPartOf": {
+          "@id": "https://www.yourbrand.com/#website"
+        },
+        "inLanguage": "en-US",
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://www.yourbrand.com/logo.png"
+        },
+        "breadcrumb": {
+          "@id": "https://www.yourbrand.com/about-us#breadcrumb"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.yourbrand.com/about-us#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": {
+              "@type": "WebPage",
+              "@id": "https://www.yourbrand.com/",
+              "name": "Home"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "About Us",
+            "item": {
+              "@type": "WebPage",
+              "@id": "https://www.yourbrand.com/about-us",
+              "name": "About Us"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "/contact-us": {
+    "organizationProfile": "standard",
+    "graph": [
+      {
+        "@type": "ContactPage",
+        "@id": "https://www.yourbrand.com/contact-us#webpage",
+        "url": "https://www.yourbrand.com/contact-us",
+        "name": "Contact Your Brand",
+        "description": "Contact Your Brand to discuss a book project, ask a question about any service, or request a written quote with no obligation.",
+        "isPartOf": {
+          "@id": "https://www.yourbrand.com/#website"
+        },
+        "inLanguage": "en-US",
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://www.yourbrand.com/logo.png"
+        },
+        "breadcrumb": {
+          "@id": "https://www.yourbrand.com/contact-us#breadcrumb"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.yourbrand.com/contact-us#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": {
+              "@type": "WebPage",
+              "@id": "https://www.yourbrand.com/",
+              "name": "Home"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Contact Us",
+            "item": {
+              "@type": "WebPage",
+              "@id": "https://www.yourbrand.com/contact-us",
+              "name": "Contact Us"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "/portfolio": {
+    "organizationProfile": "standard",
+    "graph": [
+      {
+        "@type": "CollectionPage",
+        "@id": "https://www.yourbrand.com/portfolio#webpage",
+        "url": "https://www.yourbrand.com/portfolio",
+        "name": "Your Brand Portfolio",
+        "description": "A gallery of recent book projects Your Brand has worked on, across fiction, non fiction, memoir and children titles.",
+        "isPartOf": {
+          "@id": "https://www.yourbrand.com/#website"
+        },
+        "inLanguage": "en-US",
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://www.yourbrand.com/logo.png"
+        },
+        "breadcrumb": {
+          "@id": "https://www.yourbrand.com/portfolio#breadcrumb"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.yourbrand.com/portfolio#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": {
+              "@type": "WebPage",
+              "@id": "https://www.yourbrand.com/",
+              "name": "Home"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Portfolio",
+            "item": {
+              "@type": "WebPage",
+              "@id": "https://www.yourbrand.com/portfolio",
+              "name": "Portfolio"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "/pricing": {
+    "organizationProfile": "standard",
+    "graph": [
+      {
+        "@type": "WebPage",
+        "@id": "https://www.yourbrand.com/pricing#webpage",
+        "url": "https://www.yourbrand.com/pricing",
+        "name": "Services and Rates",
+        "description": "An overview of every service Your Brand offers and how a quote is built, since scope decides the figure rather than a fixed list.",
+        "isPartOf": {
+          "@id": "https://www.yourbrand.com/#website"
+        },
+        "inLanguage": "en-US",
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://www.yourbrand.com/logo.png"
+        },
+        "breadcrumb": {
+          "@id": "https://www.yourbrand.com/pricing#breadcrumb"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.yourbrand.com/pricing#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": {
+              "@type": "WebPage",
+              "@id": "https://www.yourbrand.com/",
+              "name": "Home"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Services and Rates",
+            "item": {
+              "@type": "WebPage",
+              "@id": "https://www.yourbrand.com/pricing",
+              "name": "Services and Rates"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "/book-trailer-services": {
+    "organizationProfile": "bookTrailer",
+    "graph": [
+      {
+        "@type": "WebPage",
+        "@id": "https://www.yourbrand.com/book-trailer-services#webpage",
+        "url": "https://www.yourbrand.com/book-trailer-services",
+        "name": "Video Book Trailer Services For Authors",
+        "description": "Custom video book trailer services for authors. Pick teaser, character-driven, narrative or author-centric formats, in live action, 2D or 3D animation.",
+        "isPartOf": {
+          "@id": "https://www.yourbrand.com/#website"
+        },
+        "about": {
+          "@id": "https://www.yourbrand.com/book-trailer-services#service"
+        },
+        "breadcrumb": {
+          "@id": "https://www.yourbrand.com/book-trailer-services#breadcrumb"
+        },
+        "inLanguage": "en-US",
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://www.yourbrand.com/logo.png"
+        }
+      },
+      {
+        "@type": "Service",
+        "@id": "https://www.yourbrand.com/book-trailer-services#service",
+        "name": "Video Book Trailer Services",
+        "serviceType": "Video book trailer production",
+        "description": "Custom video book trailer production for authors, in live action, 2D or 3D animation, covering script, storyboard, footage, score, voiceover, edit and delivery.",
+        "url": "https://www.yourbrand.com/book-trailer-services",
+        "provider": {
+          "@id": "https://www.yourbrand.com/#organization"
+        },
+        "areaServed": {
+          "@type": "Country",
+          "name": "United States"
+        },
+        "audience": {
+          "@type": "Audience",
+          "audienceType": "Authors, including first-time authors"
+        },
+        "hasOfferCatalog": [
+          {
+            "@type": "OfferCatalog",
+            "name": "Book trailer formats",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Teaser Book Trailer",
+                  "description": "A short cinematic cut that establishes tone and stops before the story question is answered."
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Character-Driven Book Trailer",
+                  "description": "Built around the lead character, using performance, casting and point of view to carry the story."
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Narrative Book Trailer",
+                  "description": "Voiceover or on-screen text carries the plot summary in a paced, structured read."
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Author-Centric Book Trailer",
+                  "description": "The author appears on camera to speak to the reader about the book and why it exists."
+                }
+              }
+            ]
+          },
+          {
+            "@type": "OfferCatalog",
+            "name": "Book trailer services by genre",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Fiction Video Book Trailer Services",
+                  "description": "Fiction trailers end at the inciting incident, showing the world, the lead and the story question without the turn that answers it."
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Non-Fiction Video Book Trailer Services",
+                  "description": "Non-fiction trailers state the argument on purpose, opening on the problem the book solves and naming the reader it is for."
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Children Book Video Book Trailer Services",
+                  "description": "Children book trailers animate the book's own illustrations rather than a new art style, paced to a read-aloud rhythm."
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Autobiography Video Book Trailer Services",
+                  "description": "Autobiography trailers use real material only, working from the author's photographs, documents and archive footage."
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Illustration Book Video Trailer Services",
+                  "description": "Illustration book trailers treat the artwork as the subject, holding each spread with slow camera movement."
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.yourbrand.com/book-trailer-services#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": {
+              "@type": "WebPage",
+              "@id": "https://www.yourbrand.com/",
+              "name": "Home"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Video Book Trailer Services",
+            "item": {
+              "@type": "WebPage",
+              "@id": "https://www.yourbrand.com/book-trailer-services",
+              "name": "Video Book Trailer Services"
+            }
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.yourbrand.com/book-trailer-services#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How long should a video book trailer be?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sixty seconds is our default. A 60-second video book trailer is long enough to establish a world, a lead character and a hook, and short enough to hold attention in a social feed. Teasers can run closer to thirty seconds, and author-centric or narrative trailers sometimes need ninety. A 60-second cinematic video book trailer also fits YouTube, Reels, TikTok and Shorts without being trimmed for any of them."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the difference between a 2D, 3D and live action book trailer?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Live action uses filmed or licensed footage of real people and places. 2d book video trailer services animate flat illustrated artwork in layers, which is why picture book authors usually choose them, since the illustrations already exist. 3d book video trailer services build modelled environments and characters with real depth and camera movement, which suits fantasy, science fiction and world-heavy titles. An animated video book trailer service is the right call whenever the world in your book cannot be filmed."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which video book trailer format suits my book?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Choose the teaser if your book sells on atmosphere and you want to give nothing away. Choose our character-driven book trailer service if readers follow your books for the people in them, which is usually series fiction and romance. Choose narrative if the premise is the selling point, which is usually non-fiction and thrillers. Choose author-centric if you are the reason people buy, which is usually memoir and business books."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which book genres do you make video book trailers for?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Every genre, and the craft changes with each one. What can be put on screen, how long a shot is held, and how much of the book is given away are all genre decisions. Our genre section on this page covers video book trailer services for fiction books, non-fiction, children's, autobiography and illustration titles one at a time."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What do I need to supply before production starts?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The manuscript or a detailed synopsis, your final cover file, and your release date. If you have them, also send character descriptions, your author photo, any existing illustrations, and two or three trailers whose tone you like. If the manuscript is not finished yet, a synopsis and the first three chapters are enough to script from, and our book writing team can take the manuscript the rest of the way."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What do I actually receive at the end?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The finished trailer, in the cuts and aspect ratios agreed for your project. We set that list at the start, because where you plan to run the trailer decides which framings are worth producing, and we storyboard for those framings rather than cropping to them afterwards. Supporting files such as the script, captions and a thumbnail frame are scoped in the same conversation."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How long does a book trailer take to produce?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Production time turns on three things, and they are worth knowing before you brief anyone. Script and storyboard approval is the variable you control, and it is usually the longest stage. Live action shoots need scheduling, licensed footage does not. Animation takes longer than live action, and 3D takes longer than 2D. Ask for a stage-by-stage schedule in your quote rather than a single delivery date."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What makes book trailers affordable, and what pushes the cost up?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Affordable book trailers are the ones that reuse assets you already own. Your cover art, your existing illustrations, your author photo and licensed stock footage all cost less than originating new material. Cost rises with original filming, custom 3D modelling, named voice talent and longer runtimes. The most expensive habit is changing the script after the edit has started, which is exactly why our affordable book trailer services lock the storyboard first."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is an animated book trailer more expensive than a live action one?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Not automatically. An affordable animated video book trailer service is often cheaper than live action for a picture book, because the illustrations already exist and only need rigging and camera moves. Original 3D character animation sits at the expensive end. Live action lands in between, and drops sharply when licensed footage can stand in for a shoot."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Where do authors actually use a book trailer after delivery?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "On your Amazon author page, the book's YouTube listing, pinned to the top of your social profiles, embedded on your author website, and inside launch and newsletter emails. A video book trailer for book marketing also runs as paid creative on Meta and TikTok, and it is the one asset BookTok and bookstagram accounts can repost without producing anything themselves. Our book marketing team plans the rollout around your release date."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you make book trailers for first-time authors?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Video book trailer services for new authors run the same production as any other, with one difference. A debut has no back catalogue to borrow recognition from, so the trailer has to do the introducing. We put more weight on the premise and the cover, and less on the author, unless you specifically want an author-centric trailer."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I choose a book trailer company?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ask to see full trailers rather than a showreel of the best three seconds of each one. Ask whether the script and storyboard are approved before production begins. Ask which cuts and aspect ratios you receive. Book trailer makers in US vary widely on all three, and the right company to produce your book trailer will answer all three before you pay anything. Professional book trailer services should also show you work in your own genre, not only their flashiest title."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "/privacy-policy": {
+    "organizationProfile": "standard",
+    "graph": [
+      {
+        "@type": "WebPage",
+        "@id": "https://www.yourbrand.com/privacy-policy#webpage",
+        "url": "https://www.yourbrand.com/privacy-policy",
+        "name": "Privacy policy - Book Writing Company in US",
+        "description": "Learn how Book Writing collects, uses, and protects your data. Our privacy policy details information handling, security, cookies, and your rights.",
+        "isPartOf": {
+          "@id": "https://www.yourbrand.com/#website"
+        },
+        "inLanguage": "en-US",
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://www.yourbrand.com/logo.png"
+        },
+        "about": {
+          "@id": "https://www.yourbrand.com/#organization"
+        },
+        "breadcrumb": {
+          "@id": "https://www.yourbrand.com/privacy-policy#breadcrumb"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.yourbrand.com/privacy-policy#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": {
+              "@type": "WebPage",
+              "@id": "https://www.yourbrand.com/",
+              "name": "Home"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Privacy Policy",
+            "item": {
+              "@type": "WebPage",
+              "@id": "https://www.yourbrand.com/privacy-policy",
+              "name": "Privacy Policy"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "/terms-of-use": {
+    "organizationProfile": "standard",
+    "graph": [
+      {
+        "@type": "WebPage",
+        "@id": "https://www.yourbrand.com/terms-of-use#webpage",
+        "url": "https://www.yourbrand.com/terms-of-use",
+        "name": "Terms of use - Book Writing Company in US",
+        "description": "Review Book Writing's Terms of Use to understand site conditions, content rights, electronic communications, and important disclaimers for using our services.",
+        "isPartOf": {
+          "@id": "https://www.yourbrand.com/#website"
+        },
+        "inLanguage": "en-US",
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://www.yourbrand.com/logo.png"
+        },
+        "about": {
+          "@id": "https://www.yourbrand.com/#organization"
+        },
+        "breadcrumb": {
+          "@id": "https://www.yourbrand.com/terms-of-use#breadcrumb"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.yourbrand.com/terms-of-use#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": {
+              "@type": "WebPage",
+              "@id": "https://www.yourbrand.com/",
+              "name": "Home"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Terms of Use",
+            "item": {
+              "@type": "WebPage",
+              "@id": "https://www.yourbrand.com/terms-of-use",
+              "name": "Terms of Use"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

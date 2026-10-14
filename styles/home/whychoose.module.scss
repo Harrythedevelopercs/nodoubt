@@ -1,0 +1,1027 @@
+.whychooseSection {
+    .whychooseContainer {
+        .whychooseImg {
+            text-align: center;
+            height: 480px;
+            width: 710px;
+            margin: 100px auto 50px;
+            position: relative;
+
+            img {
+                object-fit: cover;
+                height: 100%;
+                width: 100%;
+            }
+
+            .whychooseBox {
+                width: 300px;
+                height: 150px;
+                background: #FFFFFF;
+                border: 2px solid #4b542a;
+                box-shadow: 5px 8px 20px rgba(167, 187, 210, 0.3);
+                border-radius: 20px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: absolute;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 24px;
+                line-height: 30px;
+                letter-spacing: -0.358779px;
+                color: #4b542a;
+                padding: 0px 50px;
+
+
+
+
+                .number {
+                    position: absolute;
+                    background: #4b542a;
+                    width: 50px;
+                    height: 50px;
+                    border: 2px solid #fff;
+                    border-radius: 100px;
+                    color: #fff;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 20px;
+                    line-height: 25px;
+                    letter-spacing: -0.358779px;
+                    color: #FFFFFF;
+
+
+                }
+
+                &::after {
+                    content: "-------";
+                    color: #4b542a;
+                    width: 150px;
+                    position: absolute;
+                    z-index: -1;
+                }
+
+                &.box1 {
+                    left: -320px;
+                    top: 0px;
+
+                    &::after {
+                        right: -140px;
+                    }
+
+                    .number {
+                        right: -25px;
+                    }
+                }
+
+                &.box2 {
+                    left: -320px;
+                    top: 250px;
+
+                    &::after {
+                        right: -140px;
+                    }
+
+                    .number {
+                        right: -25px;
+                    }
+                }
+
+                &.box3 {
+                    right: -320px;
+                    top: 0px;
+
+                    &::after {
+                        left: -140px;
+                    }
+
+                    .number {
+                        left: -25px;
+                    }
+                }
+
+                &.box4 {
+                    right: -320px;
+                    top: 250px;
+
+                    &::after {
+                        left: -140px;
+                    }
+
+                    .number {
+                        left: -25px;
+                    }
+                }
+
+                &.box5 {
+                    left: 50%;
+                    bottom: -220px;
+                    transform: translate(-50%, 0%);
+                    z-index: -1;
+
+                    &::after {
+                        top: -50px;
+                        transform: rotate(90deg);
+                    }
+
+                    .number {
+                        top: -25px;
+                    }
+                }
+            }
+        }
+
+        &.Spcring {
+            margin-bottom: 200px;
+
+            .whychooseImg {
+                height: 500px;
+                width: 524px;
+            }
+        }
+
+    }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+    .whychooseSection {
+        .whychooseContainer {
+            .whychooseImg {
+                height: 450px;
+                width: 666px;
+                margin: 100px auto 50px;
+
+                .whychooseBox {
+                    width: 280px;
+                    height: 140px;
+                    font-size: 22px;
+                    line-height: 28px;
+                    padding: 0px 50px;
+
+                    .number {
+                        width: 45px;
+                        height: 45px;
+                        font-size: 18px;
+                        line-height: 25px;
+                    }
+
+                    &::after {
+                        content: "-------";
+                        width: 100px;
+                    }
+
+                    &.box1 {
+                        left: -300px;
+                        top: 0px;
+
+                        &::after {
+                            right: -90px;
+                        }
+
+                        .number {
+                            right: -23px;
+                        }
+                    }
+
+                    &.box2 {
+                        left: -300px;
+                        top: 230px;
+
+                        &::after {
+                            right: -90px;
+                        }
+
+                        .number {
+                            right: -23px;
+                        }
+                    }
+
+                    &.box3 {
+                        right: -300px;
+                        top: 0px;
+
+                        &::after {
+                            left: -90px;
+                        }
+
+                        .number {
+                            left: -23px;
+                        }
+                    }
+
+                    &.box4 {
+                        right: -300px;
+                        top: 230px;
+
+                        &::after {
+                            left: -90px;
+                        }
+
+                        .number {
+                            left: -23px;
+                        }
+                    }
+
+                    &.box5 {
+                        left: 50%;
+                        bottom: -220px;
+                        transform: translate(-50%, 0%);
+
+                        &::after {
+                            top: -50px;
+                            transform: rotate(90deg);
+                        }
+
+                        .number {
+                            top: -23px;
+                        }
+                    }
+                }
+            }
+
+            &.Spcring {
+                margin-bottom: 200px;
+
+                .whychooseImg {
+                    height: 500px;
+                    width: 524px;
+
+                    .whychooseBox {
+
+                        &.box1 {
+                            top: 40px;
+                        }
+
+                        &.box2 {
+                            top: 280px;
+                        }
+
+                        &.box3 {
+                            top: 40px;
+                        }
+
+                        &.box4 {
+                            top: 280px;
+                        }
+
+                        &.box5 {
+                            bottom: -200px;
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+    .whychooseSection {
+        .whychooseContainer {
+            .whychooseImg {
+                height: 410px;
+                width: 607px;
+                margin: 100px auto 50px;
+
+                .whychooseBox {
+                    width: 260px;
+                    height: 120px;
+                    font-size: 20px;
+                    line-height: 26px;
+                    padding: 0px 50px;
+
+                    .number {
+                        width: 40px;
+                        height: 40px;
+                        font-size: 16px;
+                        line-height: 25px;
+                    }
+
+                    &::after {
+                        content: "-------";
+                        width: 100px;
+                    }
+
+                    &.box1 {
+                        left: -280px;
+                        top: 0px;
+
+                        &::after {
+                            right: -90px;
+                        }
+
+                        .number {
+                            right: -20px;
+                        }
+                    }
+
+                    &.box2 {
+                        left: -280px;
+                        top: 230px;
+
+                        &::after {
+                            right: -90px;
+                        }
+
+                        .number {
+                            right: -20px;
+                        }
+                    }
+
+                    &.box3 {
+                        right: -280px;
+                        top: 0px;
+
+                        &::after {
+                            left: -90px;
+                        }
+
+                        .number {
+                            left: -20px;
+                        }
+                    }
+
+                    &.box4 {
+                        right: -280px;
+                        top: 230px;
+
+                        &::after {
+                            left: -90px;
+                        }
+
+                        .number {
+                            left: -20px;
+                        }
+                    }
+
+                    &.box5 {
+                        left: 50%;
+                        bottom: -200px;
+                        transform: translate(-50%, 0%);
+
+                        &::after {
+                            top: -50px;
+                            transform: rotate(90deg);
+                        }
+
+                        .number {
+                            top: -20px;
+                        }
+                    }
+                }
+            }
+
+            &.Spcring {
+                margin-bottom: 200px;
+
+                .whychooseImg {
+                    height: 450px;
+                    width: 450px;
+
+                    .whychooseBox {
+
+                        &.box1 {
+                            top: 40px;
+                        }
+
+                        &.box2 {
+                            top: 280px;
+                        }
+
+                        &.box3 {
+                            top: 40px;
+                        }
+
+                        &.box4 {
+                            top: 280px;
+                        }
+
+                        &.box5 {
+                            bottom: -160px;
+
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+    .whychooseSection {
+        .whychooseContainer {
+            .whychooseImg {
+                height: 350px;
+                width: 518px;
+                margin: 100px auto 50px;
+
+                .whychooseBox {
+                    width: 220px;
+                    height: 110px;
+                    font-size: 18px;
+                    line-height: 24px;
+                    padding: 0px 30px;
+
+                    .number {
+                        width: 40px;
+                        height: 40px;
+                        font-size: 16px;
+                        line-height: 25px;
+                    }
+
+                    &::after {
+                        content: "-------";
+                        width: 100px;
+                    }
+
+                    &.box1 {
+                        left: -250px;
+                        top: 0px;
+
+                        &::after {
+                            right: -90px;
+                        }
+
+                        .number {
+                            right: -20px;
+                        }
+                    }
+
+                    &.box2 {
+                        left: -250px;
+                        top: 200px;
+
+                        &::after {
+                            right: -90px;
+                        }
+
+                        .number {
+                            right: -20px;
+                        }
+                    }
+
+                    &.box3 {
+                        right: -250px;
+                        top: 0px;
+
+                        &::after {
+                            left: -90px;
+                        }
+
+                        .number {
+                            left: -20px;
+                        }
+                    }
+
+                    &.box4 {
+                        right: -250px;
+                        top: 200px;
+
+                        &::after {
+                            left: -90px;
+                        }
+
+                        .number {
+                            left: -20px;
+                        }
+                    }
+
+                    &.box5 {
+                        left: 50%;
+                        bottom: -180px;
+                        transform: translate(-50%, 0%);
+
+                        &::after {
+                            top: -50px;
+                            transform: rotate(90deg);
+                        }
+
+                        .number {
+                            top: -20px;
+                        }
+                    }
+                }
+            }
+
+            &.Spcring {
+                margin-bottom: 150px;
+
+
+                .whychooseImg {
+                    height: 430px;
+                    width: 430px;
+                    margin-top: 0px;
+
+                    .whychooseBox {
+
+                        &.box1 {
+                            top: 60px;
+                        }
+
+                        &.box2 {
+                            top: 250px;
+                        }
+
+                        &.box3 {
+                            top: 60px;
+                        }
+
+                        &.box4 {
+                            top: 250px;
+                        }
+
+                        &.box5 {
+                            bottom: -140px;
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width:1099px) {
+    .whychooseSection {
+        .whychooseContainer {
+            .whychooseImg {
+                height: 300px;
+                width: 444px;
+                margin: 50px auto 0px;
+
+                .whychooseBox {
+                    width: 200px;
+                    height: 80px;
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 22px;
+                    padding: 0px 30px;
+                    border-radius: 10px;
+
+                    .number {
+                        width: 35px;
+                        height: 35px;
+                        font-size: 14px;
+                        line-height: 25px;
+                    }
+
+                    &::after {
+                        content: "-------";
+                        width: 100px;
+                    }
+
+                    &.box1 {
+                        left: -230px;
+                        top: 0px;
+
+                        &::after {
+                            right: -90px;
+                        }
+
+                        .number {
+                            right: -18px;
+                        }
+                    }
+
+                    &.box2 {
+                        left: -230px;
+                        top: 170px;
+
+                        &::after {
+                            right: -90px;
+                        }
+
+                        .number {
+                            right: -18px;
+                        }
+                    }
+
+                    &.box3 {
+                        right: -230px;
+                        top: 0px;
+
+                        &::after {
+                            left: -90px;
+                        }
+
+                        .number {
+                            left: -18px;
+                        }
+                    }
+
+                    &.box4 {
+                        right: -230px;
+                        top: 170px;
+
+                        &::after {
+                            left: -90px;
+                        }
+
+                        .number {
+                            left: -18px;
+                        }
+                    }
+
+                    &.box5 {
+                        left: 50%;
+                        bottom: -150px;
+                        transform: translate(-50%, 0%);
+
+                        &::after {
+                            top: -50px;
+                            transform: rotate(90deg);
+                        }
+
+                        .number {
+                            top: -18px;
+                        }
+                    }
+                }
+            }
+
+            &.Spcring {
+                margin-bottom: 100px;
+
+
+                .whychooseImg {
+                    height: 400px;
+                    width: 400px;
+                    margin-top: 20px;
+
+                    .whychooseBox {
+
+                        &.box1 {
+                            top: 80px;
+                        }
+
+                        &.box2 {
+                            top: 250px;
+                        }
+
+                        &.box3 {
+                            top: 80px;
+                        }
+
+                        &.box4 {
+                            top: 250px;
+                        }
+
+                        &.box5 {
+                            bottom: -120px;
+
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width:899px) {
+    .whychooseSection {
+        .whychooseContainer {
+            .whychooseImg {
+                height: 220px;
+                width: 325px;
+                margin: 50px auto 0px;
+
+                .whychooseBox {
+                    width: 160px;
+                    height: 60px;
+                    font-size: 14px;
+                    font-weight: 500;
+                    line-height: 18px;
+                    padding: 0px 20px;
+                    border-radius: 10px;
+
+                    .number {
+                        width: 30px;
+                        height: 30px;
+                        font-size: 12px;
+                        line-height: 22px;
+                        font-weight: 400;
+                    }
+
+                    &::after {
+                        content: "-------";
+                        width: 100px;
+                    }
+
+                    &.box1 {
+                        left: -190px;
+                        top: 0px;
+
+                        &::after {
+                            right: -90px;
+                        }
+
+                        .number {
+                            right: -18px;
+                        }
+                    }
+
+                    &.box2 {
+                        left: -190px;
+                        top: 120px;
+
+                        &::after {
+                            right: -90px;
+                        }
+
+                        .number {
+                            right: -18px;
+                        }
+                    }
+
+                    &.box3 {
+                        right: -190px;
+                        top: 0px;
+
+                        &::after {
+                            left: -90px;
+                        }
+
+                        .number {
+                            left: -18px;
+                        }
+                    }
+
+                    &.box4 {
+                        right: -190px;
+                        top: 120px;
+
+                        &::after {
+                            left: -90px;
+                        }
+
+                        .number {
+                            left: -18px;
+                        }
+                    }
+
+                    &.box5 {
+                        left: 50%;
+                        bottom: -130px;
+                        transform: translate(-50%, 0%);
+
+                        &::after {
+                            top: -50px;
+                            transform: rotate(90deg);
+                        }
+
+                        .number {
+                            top: -18px;
+                        }
+                    }
+                }
+            }
+
+            &.Spcring {
+                margin-bottom: 100px;
+
+
+                .whychooseImg {
+                    height: 320px;
+                    width: 320px;
+                    margin-top: 20px;
+
+                    .whychooseBox {
+                        border: 1px solid #4b542a;
+
+                        &.box1 {
+                            top: 50px;
+                        }
+
+                        &.box2 {
+                            top: 200px;
+                        }
+
+                        &.box3 {
+                            top: 50px;
+                        }
+
+                        &.box4 {
+                            top: 200px;
+                        }
+
+                        &.box5 {
+                            bottom: -90px;
+
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width:767px) {
+    .whychooseSection {
+        .whychooseContainer {
+            .whychooseImg {
+                height: auto;
+                max-width: 325px;
+                margin: 20px auto 0px;
+
+                img {
+                    margin-bottom: 30px;
+                }
+
+                .whychooseBox {
+                    width: 100%;
+                    height: 60px;
+                    font-size: 14px;
+                    font-weight: 500;
+                    line-height: 18px;
+                    padding: 0px 20px;
+                    border-radius: 10px;
+                    position: relative;
+                    left: unset !important;
+                    right: unset !important;
+                    top: unset !important;
+                    bottom: unset !important;
+                    margin-bottom: 20px;
+
+                    .number {
+                        width: 30px;
+                        height: 30px;
+                        font-size: 12px;
+                        line-height: 22px;
+                        font-weight: 400;
+                    }
+
+                    &::after {
+                        content: "-------";
+                        width: 100px;
+                        display: none;
+                    }
+
+                    &.box1 {
+                        .number {
+                            top: -18px;
+                            right: unset;
+                        }
+                    }
+
+                    &.box2 {
+
+                        .number {
+                            top: -18px;
+                            right: unset;
+                        }
+                    }
+
+                    &.box3 {
+                        right: -190px;
+                        top: 0px;
+
+                        .number {
+                            top: -18px;
+                            left: unset;
+                        }
+                    }
+
+                    &.box4 {
+                        .number {
+                            top: -18px;
+                            left: unset;
+                        }
+                    }
+
+                    &.box5 {
+                        left: unset !important;
+                        transform: translate(0%);
+
+                        .number {
+                            top: -18px;
+                        }
+                    }
+                }
+            }
+
+            &.Spcring {
+                margin-bottom: 0px;
+
+
+                .whychooseImg {
+                    height: auto;
+                    width: 300px;
+                    margin-top: 20px;
+
+                    .whychooseBox {
+                        border: 1px solid #4b542a;
+                    }
+                }
+            }
+
+        }
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+    .whychooseSection {
+        .whychooseContainer {
+            .whychooseImg {
+                height: auto;
+                max-width: 325px;
+                margin: 20px auto 0px;
+
+                img {
+                    margin-bottom: 30px;
+                }
+
+                .whychooseBox {
+                    width: 100%;
+                    height: 60px;
+                    font-size: 14px;
+                    font-weight: 500;
+                    line-height: 18px;
+                    padding: 0px 20px;
+                    border-radius: 10px;
+                    position: relative;
+                    left: unset !important;
+                    right: unset !important;
+                    top: unset !important;
+                    bottom: unset !important;
+                    margin-bottom: 20px;
+
+                    .number {
+                        width: 30px;
+                        height: 30px;
+                        font-size: 12px;
+                        line-height: 22px;
+                        font-weight: 400;
+                    }
+
+                    &::after {
+                        content: "-------";
+                        width: 100px;
+                        display: none;
+                    }
+
+                    &.box1 {
+                        .number {
+                            top: -18px;
+                            right: unset;
+                        }
+                    }
+
+                    &.box2 {
+
+                        .number {
+                            top: -18px;
+                            right: unset;
+                        }
+                    }
+
+                    &.box3 {
+                        right: -190px;
+                        top: 0px;
+
+                        .number {
+                            top: -18px;
+                            left: unset;
+                        }
+                    }
+
+                    &.box4 {
+                        .number {
+                            top: -18px;
+                            left: unset;
+                        }
+                    }
+
+                    &.box5 {
+                        left: unset !important;
+                        transform: translate(0%);
+
+                        .number {
+                            top: -18px;
+                        }
+                    }
+                }
+            }
+
+            &.Spcring {
+                margin-bottom: 0px;
+
+
+                .whychooseImg {
+                    height: auto;
+                    width: 300px;
+                    margin-top: 20px;
+
+                    .whychooseBox {
+                        border: 1px solid #4b542a;
+                    }
+                }
+            }
+        }
+    }
+}

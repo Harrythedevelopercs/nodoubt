@@ -1,0 +1,299 @@
+.servicesBox {
+    .servicesContainer {
+
+        margin-top: 40px;
+
+        .servicesItem {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 100px;
+
+            .servicesTxt {
+                flex: 0 0 50%;
+                padding-right: 50px;
+            }
+
+            .servicesImage {
+                flex: 0 0 50%;
+
+                .imgBox {
+                    position: relative;
+                    height: 560px;
+                    border-radius: 20px;
+
+                    img {
+                        border-radius: 20px;
+                        object-fit: cover;
+                    }
+                }
+            }
+
+            &:nth-child(even) {
+                flex-direction: row-reverse;
+
+                .servicesTxt {
+                    padding-right: 0px;
+                    padding-left: 50px;
+                }
+
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+    .servicesBox {
+        .servicesContainer {
+            margin-top: 40px;
+
+            .servicesItem {
+                margin-bottom: 80px;
+
+                .servicesTxt {
+                    flex: 0 0 50%;
+                    padding-right: 50px;
+                }
+
+                .servicesImage {
+                    flex: 0 0 50%;
+
+                    .imgBox {
+                        position: relative;
+                        height: 500px;
+                    }
+                }
+
+                &:nth-child(even) {
+                    flex-direction: row-reverse;
+
+                    .servicesTxt {
+                        padding-right: 0px;
+                        padding-left: 50px;
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+    .servicesBox {
+        .servicesContainer {
+            margin-top: 40px;
+
+            .servicesItem {
+                margin-bottom: 60px;
+
+                .servicesTxt {
+                    flex: 0 0 50%;
+                    padding-right: 50px;
+                }
+
+                .servicesImage {
+                    flex: 0 0 50%;
+
+                    .imgBox {
+                        position: relative;
+                        height: 460px;
+                    }
+                }
+
+                &:nth-child(even) {
+                    flex-direction: row-reverse;
+
+                    .servicesTxt {
+                        padding-right: 0px;
+                        padding-left: 50px;
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+    .servicesBox {
+        .servicesContainer {
+            margin-top: 30px;
+
+            .servicesItem {
+                margin-bottom: 50px;
+
+                .servicesTxt {
+                    flex: 0 0 50%;
+                    padding-right: 50px;
+                }
+
+                .servicesImage {
+                    flex: 0 0 50%;
+
+                    .imgBox {
+                        position: relative;
+                        height: 400px;
+                    }
+                }
+
+                &:nth-child(even) {
+                    flex-direction: row-reverse;
+
+                    .servicesTxt {
+                        padding-right: 0px;
+                        padding-left: 50px;
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width:1099px) {
+    .servicesBox {
+        .servicesContainer {
+            margin-top: 30px;
+
+            .servicesItem {
+                margin-bottom: 50px;
+
+                .servicesTxt {
+                    flex: 0 0 50%;
+                    padding-right: 50px;
+                }
+
+                .servicesImage {
+                    flex: 0 0 50%;
+
+                    .imgBox {
+                        position: relative;
+                        height: 360px;
+                    }
+                }
+
+                &:nth-child(even) {
+                    flex-direction: row-reverse;
+
+                    .servicesTxt {
+                        padding-right: 0px;
+                        padding-left: 50px;
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width:899px) {
+    .servicesBox {
+        .servicesContainer {
+            margin-top: 30px;
+
+            .servicesItem {
+                margin-bottom: 50px;
+
+                .servicesTxt {
+                    flex: 0 0 50%;
+                    padding-right: 50px;
+                }
+
+                .servicesImage {
+                    flex: 0 0 50%;
+
+                    .imgBox {
+                        position: relative;
+                        height: 360px;
+                    }
+                }
+
+                &:nth-child(even) {
+                    flex-direction: row-reverse;
+
+                    .servicesTxt {
+                        padding-right: 0px;
+                        padding-left: 50px;
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width:767px) {
+    .servicesBox {
+        .servicesContainer {
+            margin-top: 20px;
+
+            .servicesItem {
+                margin-bottom: 20px;
+                flex-wrap: wrap;
+
+                .servicesTxt {
+                    flex: 0 0 100%;
+                    padding-right: 0px;
+                }
+
+                .servicesImage {
+                    flex: 0 0 100%;
+                    margin-top: 20px;
+
+                    .imgBox {
+                        position: relative;
+                        height: 300px;
+                    }
+                }
+
+                &:nth-child(even) {
+                    flex-direction: unset;
+
+                    .servicesTxt {
+                        padding-right: 0px;
+                        padding-left: 0px;
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+    .servicesBox {
+        .servicesContainer {
+            margin-top: 20px;
+
+            .servicesItem {
+                margin-bottom: 20px;
+                flex-wrap: wrap;
+
+                .servicesTxt {
+                    flex: 0 0 100%;
+                    padding-right: 0px;
+                }
+
+                .servicesImage {
+                    flex: 0 0 100%;
+                    margin-top: 20px;
+
+                    .imgBox {
+                        position: relative;
+                        height: 260px;
+                    }
+                }
+
+                &:nth-child(even) {
+                    flex-direction: unset;
+
+                    .servicesTxt {
+                        padding-right: 0px;
+                        padding-left: 0px;
+                    }
+
+                }
+            }
+        }
+    }
+}

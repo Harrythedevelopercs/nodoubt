@@ -1,0 +1,215 @@
+.faqsSection {
+
+    .faqsBox {
+        border-bottom: 1px solid #D9D9D9;
+        height: 60px;
+        overflow: hidden;
+        transition: height 0.4s ease, opacity 0.4s ease;
+
+
+        .faqsTitle {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+            color: #000000;
+            cursor: pointer;
+            position: relative;
+            padding-right: 80px;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .iconBox {
+                position: absolute;
+                right: 0px;
+                top: 50%;
+                transform: translate(0, -50%);
+                width: 25px;
+                height: 25px;
+                background: transparent;
+                border-radius: 64px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border: 1px solid #0003;
+
+                svg {
+                    height: 12px;
+                    width: 12px;
+                    transition: all 0.5s ease;
+
+                    path {
+                        fill: #0003;
+                    }
+                }
+            }
+        }
+
+        .faqscontent {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 24px;
+            letter-spacing: -0.165px;
+            opacity: 0;
+            max-height: 0;
+            transition: max-height 0.4s ease, opacity 0.4s ease;
+            padding-right: 80px;
+
+            ul {
+                list-style: inside;
+            }
+
+            p,
+            li {
+                color: #0003;
+            }
+        }
+
+        &.active {
+            opacity: 1;
+            height: auto;
+            padding-bottom: 20px;
+
+            .faqscontent {
+                opacity: 1;
+                max-height: 500px;
+            }
+
+            .iconBox {
+                background: #4b542a;
+                border: 2px solid #4b542a;
+
+                svg {
+                    transform: rotate(45deg);
+                    transition: all 0.5s ease;
+
+                    path {
+                        fill: #fff;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+    .faqsSection {
+        .faqsBox {
+            .faqsTitle {
+                padding-right: 40px;
+                font-size: 16px;
+            }
+
+            &.active {
+                padding-bottom: 20px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+    .faqsSection {
+        .faqsBox {
+            .faqsTitle {
+                padding-right: 40px;
+                font-size: 16px;
+            }
+
+            &.active {
+                padding-bottom: 20px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+    .faqsSection {
+        .faqsBox {
+            .faqsTitle {
+                padding-right: 30px;
+                font-size: 14px;
+            }
+
+            &.active {
+                padding-bottom: 20px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width:1099px) {
+    .faqsSection {
+        .faqsBox {
+            .faqsTitle {
+                padding-right: 20px;
+                font-size: 14px;
+            }
+
+            &.active {
+                padding-bottom: 20px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width:899px) {
+    .faqsSection {
+        .faqsBox {
+            .faqsTitle {
+                padding-right: 20px;
+                font-size: 14px;
+            }
+
+            &.active {
+                padding-bottom: 20px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width:767px) {
+    .faqsSection {
+        .faqsBox {
+            .faqsTitle {
+                padding-right: 20px;
+                font-size: 14px;
+            }
+
+            &.active {
+                padding-bottom: 20px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+    .faqsSection {
+        .faqsBox {
+            height: auto;
+
+            .faqsTitle {
+                font-size: 13px;
+                line-height: 20px;
+                padding: 10px 20px 10px 0px;
+                height: 100%;
+
+                .iconBox {
+                    width: 20px;
+                    height: 20px;
+
+                    svg {
+                        height: 10px;
+                        width: 10px;
+                    }
+                }
+            }
+
+            &.active {
+                padding-bottom: 20px;
+            }
+        }
+    }
+}

@@ -1,0 +1,31 @@
+# Heritage Leaf Books
+
+Heritage Leaf Books provides professional support for authors across writing, editing, publishing, design, audio, websites, and book marketing. This file lists the public pages that best describe the company and its services.
+
+## Company
+- [Home](https://www.yourbrand.com/)
+- [About](https://www.yourbrand.com/about-us)
+- [Pricing](https://www.yourbrand.com/pricing)
+- [Portfolio](https://www.yourbrand.com/portfolio)
+- [Contact](https://www.yourbrand.com/contact-us)
+- [Blog](https://www.yourbrand.com/blogs)
+
+## Services
+- [Book Writing](https://www.yourbrand.com/book-writing-services)
+- [Book Editing](https://www.yourbrand.com/book-editing-services)
+- [Book Proofreading](https://www.yourbrand.com/book-proofreading-services)
+- [Book Publishing](https://www.yourbrand.com/book-publishing-services)
+- [Book Cover Design](https://www.yourbrand.com/book-cover-design-services)
+- [Book Marketing](https://www.yourbrand.com/book-marketing-services)
+- [Book Trailer Production](https://www.yourbrand.com/book-trailer-services)
+- [Audiobook Recording](https://www.yourbrand.com/audiobook-recording-services)
+- [Author Website Design](https://www.yourbrand.com/author-website-design-services)
+- [Children's Book Illustration](https://www.yourbrand.com/children-book-illustrator)
+- [Children's Book Publication](https://www.yourbrand.com/children-book-publication-services)
+
+## Contact facts
+- Email: info@yourbrand.com
+- Phone: (555) 000-0000
+- Address: 123 Main Street, Suite 100, New York, NY 10001, United States
+
+Content should be treated as descriptive, not as a promise of sales, rankings, awards, or publishing outcomes.

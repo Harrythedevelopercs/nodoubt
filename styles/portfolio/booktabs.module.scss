@@ -1,0 +1,736 @@
+.bookTabs {
+  .tabContainer {
+    .tabHeader {
+      ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin: 20px 0px 30px;
+
+        li {
+          position: relative;
+          height: 57px;
+          background: #ffffff;
+          border: 1px solid #99aebb;
+          border-radius: 93px;
+          overflow: hidden;
+          transition: color 0.3s ease, border-color 0.3s ease;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 18px;
+          line-height: 57px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          letter-spacing: -0.165px;
+          color: #6f787d;
+          padding: 0px 25px;
+          cursor: pointer;
+          flex: 0 0 calc(100% / 5 - 10px);
+
+          &:before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 0;
+            height: 100%;
+            background-color: #7635ff;
+            transition: width 0.3s ease;
+            z-index: 0;
+          }
+
+          &:hover:before {
+            width: 100%;
+          }
+
+          &:hover {
+            color: #fff;
+            border-color: #7635ff;
+          }
+
+          &.active {
+            color: #fff;
+            border-color: #7635ff;
+
+            &:before {
+              width: 100%;
+              background-color: #7635ff;
+            }
+          }
+
+          span {
+            position: relative;
+            z-index: 1;
+          }
+        }
+      }
+    }
+
+    .tabBody {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-top: 20px;
+
+      .ImageBox {
+        height: 400px;
+        flex: 0 0 calc(100% / 5 - 10px);
+        position: relative;
+        border-radius: 10px;
+        overflow: hidden;
+
+        img {
+          object-fit: cover;
+          border-radius: 10px;
+          transition: opacity 0.3s ease-in-out;
+        }
+
+        .TxtBox {
+          display: none;
+          justify-content: space-between;
+          background: #fff;
+          flex-direction: column;
+          height: 100%;
+          border: 1px solid #e0f0ff;
+          padding: 20px;
+          filter: drop-shadow(0px 14px 14px rgba(0, 0, 0, 0.05));
+          border-radius: 10px;
+          transform: translateY(10px);
+          transition: opacity 0.3s ease, transform 0.3s ease;
+
+          .title {
+            h5 {
+              font-style: normal;
+              font-weight: 600;
+              font-size: 20px;
+              line-height: 26px;
+              letter-spacing: -0.165px;
+              color: #4b542a;
+            }
+
+            p {
+              font-style: normal;
+              font-weight: 400;
+              font-size: 15px;
+              line-height: 22px;
+              letter-spacing: -0.165px;
+              color: #73858f;
+              margin-bottom: 5px;
+            }
+
+            a {
+              font-style: normal;
+              font-weight: 500;
+              font-size: 14px;
+              line-height: 14px;
+              letter-spacing: -0.165px;
+              text-decoration: underline;
+              color: #4b542a;
+            }
+          }
+
+          .profile {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+
+            .imgBox {
+              position: relative;
+              height: 50px;
+              width: 50px;
+              border-radius: 100%;
+
+              img {
+                display: block;
+                border-radius: 100%;
+              }
+            }
+
+            .imgTitle {
+              font-style: normal;
+              font-weight: 600;
+              font-size: 15px;
+              line-height: 18px;
+              letter-spacing: -0.165px;
+              color: #000000;
+
+              span {
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 18px;
+                letter-spacing: -0.165px;
+                color: #73858f;
+                display: block;
+              }
+            }
+          }
+        }
+
+        // &:hover {
+        //   img {
+        //     opacity: 0;
+        //   }
+
+        //   .TxtBox {
+        //     display: flex;
+        //     opacity: 1;
+        //     transform: translateY(0);
+
+        //     .profile {
+        //       .imgBox {
+        //         img {
+        //           opacity: 1;
+        //         }
+        //       }
+        //     }
+        //   }
+        // }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+  .bookTabs {
+    .tabContainer {
+      overflow: hidden;
+
+      .tabHeader {
+        ul {
+          gap: 10px;
+          margin: 20px 0px 30px;
+
+          li {
+            height: 55px;
+            font-size: 16px;
+            line-height: 55px;
+            padding: 0px 22px;
+          }
+        }
+      }
+
+      .tabBody {
+        flex-wrap: wrap;
+
+        .ImageBox {
+          height: 370px;
+          position: relative;
+          border-radius: 10px;
+
+          img {
+            border-radius: 10px;
+          }
+
+          .TxtBox {
+            padding: 20px;
+            border-radius: 10px;
+
+            .title {
+              h5 {
+                font-size: 18px;
+                line-height: 24px;
+                margin-bottom: 10px;
+              }
+
+              p {
+                font-size: 14px;
+                line-height: 20px;
+              }
+
+              a {
+                font-size: 13px;
+                line-height: 13px;
+              }
+            }
+
+            .profile {
+              gap: 10px;
+
+              .imgBox {
+                height: 45px;
+                width: 45px;
+              }
+
+              .imgTitle {
+                font-size: 14px;
+                line-height: 16px;
+
+                span {
+                  font-size: 13px;
+                  line-height: 18px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+  .bookTabs {
+    .tabContainer {
+      .tabHeader {
+        ul {
+          gap: 10px;
+          margin: 15px 0px 30px;
+
+          li {
+            height: 50px;
+            font-size: 15px;
+            line-height: 50px;
+            padding: 0px 20px;
+          }
+        }
+      }
+
+      .tabBody {
+        flex-wrap: wrap;
+
+        .ImageBox {
+          height: 330px;
+          position: relative;
+          border-radius: 10px;
+
+          img {
+            border-radius: 10px;
+          }
+
+          .TxtBox {
+            padding: 20px;
+            border-radius: 10px;
+
+            .title {
+              h5 {
+                font-size: 16px;
+                line-height: 22px;
+                margin-bottom: 10px;
+              }
+
+              p {
+                font-size: 13px;
+                line-height: 20px;
+              }
+
+              a {
+                font-size: 13px;
+                line-height: 13px;
+              }
+            }
+
+            .profile {
+              gap: 10px;
+
+              .imgBox {
+                height: 45px;
+                width: 45px;
+              }
+
+              .imgTitle {
+                font-size: 13px;
+                line-height: 16px;
+
+                span {
+                  font-size: 13px;
+                  line-height: 18px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+  .bookTabs {
+    .tabContainer {
+      .tabHeader {
+        ul {
+          gap: 10px;
+          margin: 15px 0px 30px;
+
+          li {
+            height: 45px;
+            font-size: 14px;
+            line-height: 45px;
+            padding: 0px 20px;
+          }
+        }
+      }
+
+      .tabBody {
+        flex-wrap: wrap;
+
+        .ImageBox {
+          height: 300px;
+          position: relative;
+          border-radius: 10px;
+
+          img {
+            border-radius: 10px;
+          }
+
+          .TxtBox {
+            padding: 15px;
+            border-radius: 10px;
+
+            .title {
+              h5 {
+                font-size: 16px;
+                line-height: 22px;
+                margin-bottom: 10px;
+              }
+
+              p {
+                font-size: 13px;
+                line-height: 20px;
+              }
+
+              a {
+                font-size: 13px;
+                line-height: 13px;
+              }
+            }
+
+            .profile {
+              gap: 10px;
+
+              .imgBox {
+                height: 40px;
+                width: 40px;
+              }
+
+              .imgTitle {
+                font-size: 12px;
+                line-height: 16px;
+
+                span {
+                  font-size: 13px;
+                  line-height: 18px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1099px) {
+  .bookTabs {
+    .tabContainer {
+      .tabHeader {
+        ul {
+          gap: 10px;
+          margin: 15px 0px 30px;
+
+          li {
+            height: 40px;
+            font-size: 13px;
+            line-height: 40px;
+            padding: 0px 20px;
+          }
+        }
+      }
+
+      .tabBody {
+        flex-wrap: wrap;
+
+        .ImageBox {
+          height: 350px;
+          position: relative;
+          border-radius: 10px;
+          flex: 0 0 calc(100% / 4 - 10px);
+
+          img {
+            border-radius: 10px;
+          }
+
+          .TxtBox {
+            padding: 15px;
+            border-radius: 10px;
+
+            .title {
+              h5 {
+                font-size: 16px;
+                line-height: 22px;
+                margin-bottom: 10px;
+              }
+
+              p {
+                font-size: 13px;
+                line-height: 20px;
+              }
+
+              a {
+                font-size: 13px;
+                line-height: 13px;
+              }
+            }
+
+            .profile {
+              gap: 10px;
+
+              .imgBox {
+                height: 40px;
+                width: 40px;
+              }
+
+              .imgTitle {
+                font-size: 12px;
+                line-height: 16px;
+
+                span {
+                  font-size: 13px;
+                  line-height: 18px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 899px) {
+  .bookTabs {
+    .tabContainer {
+      .tabHeader {
+        ul {
+          gap: 5px;
+          margin: 10px 0px 30px;
+
+          li {
+            height: 40px;
+            font-size: 13px;
+            line-height: 40px;
+            padding: 0px 10px;
+          }
+        }
+      }
+
+      .tabBody {
+        flex-wrap: wrap;
+
+        .ImageBox {
+          height: 340px;
+          position: relative;
+          border-radius: 10px;
+          flex: 0 0 calc(100% / 3 - 10px);
+
+          img {
+            border-radius: 10px;
+          }
+
+          .TxtBox {
+            padding: 15px;
+            border-radius: 10px;
+
+            .title {
+              h5 {
+                font-size: 16px;
+                line-height: 22px;
+                margin-bottom: 10px;
+              }
+
+              p {
+                font-size: 13px;
+                line-height: 20px;
+              }
+
+              a {
+                font-size: 13px;
+                line-height: 13px;
+              }
+            }
+
+            .profile {
+              gap: 10px;
+
+              .imgBox {
+                height: 40px;
+                width: 40px;
+              }
+
+              .imgTitle {
+                font-size: 12px;
+                line-height: 16px;
+
+                span {
+                  font-size: 13px;
+                  line-height: 18px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .bookTabs {
+    .tabContainer {
+      .tabHeader {
+        ul {
+          gap: 5px;
+          margin: 10px 0px 30px;
+
+          li {
+            height: 40px;
+            font-size: 11px;
+            line-height: 40px;
+            padding: 0px 5px;
+          }
+        }
+      }
+
+      .tabBody {
+        flex-wrap: wrap;
+
+        .ImageBox {
+          height: 350px;
+          position: relative;
+          border-radius: 10px;
+          flex: 0 0 calc(100% / 2 - 10px);
+
+          img {
+            border-radius: 10px;
+          }
+
+          .TxtBox {
+            padding: 15px;
+            border-radius: 10px;
+
+            .title {
+              h5 {
+                font-size: 16px;
+                line-height: 22px;
+                margin-bottom: 10px;
+              }
+
+              p {
+                font-size: 13px;
+                line-height: 20px;
+              }
+
+              a {
+                font-size: 13px;
+                line-height: 13px;
+              }
+            }
+
+            .profile {
+              gap: 10px;
+
+              .imgBox {
+                height: 40px;
+                width: 40px;
+              }
+
+              .imgTitle {
+                font-size: 12px;
+                line-height: 16px;
+
+                span {
+                  font-size: 13px;
+                  line-height: 18px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+  .bookTabs {
+    .tabContainer {
+      .tabHeader {
+        ul {
+          gap: 5px;
+          margin: 10px 0px 10px;
+          flex-wrap: wrap;
+
+          li {
+            height: 40px;
+            font-size: 12px;
+            line-height: 40px;
+            padding: 0px 10px;
+            flex: 0 0 calc(100% / 2 - 10px);
+          }
+        }
+      }
+
+      .tabBody {
+        flex-wrap: wrap;
+
+        .ImageBox {
+          height: 350px;
+          position: relative;
+          border-radius: 10px;
+          flex: 0 0 calc(100% - 0px);
+
+          img {
+            border-radius: 10px;
+          }
+
+          .TxtBox {
+            padding: 15px;
+            border-radius: 10px;
+
+            .title {
+              h5 {
+                font-size: 16px;
+                line-height: 22px;
+                margin-bottom: 10px;
+              }
+
+              p {
+                font-size: 13px;
+                line-height: 20px;
+              }
+
+              a {
+                font-size: 13px;
+                line-height: 13px;
+              }
+            }
+
+            .profile {
+              gap: 10px;
+
+              .imgBox {
+                height: 40px;
+                width: 40px;
+              }
+
+              .imgTitle {
+                font-size: 12px;
+                line-height: 16px;
+
+                span {
+                  font-size: 13px;
+                  line-height: 18px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
